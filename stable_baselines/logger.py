@@ -23,7 +23,6 @@ ERROR = 40
 
 DISABLED = 50
 
-
 class KVWriter(object):
     """
     Key Value writer

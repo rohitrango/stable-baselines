@@ -9,7 +9,6 @@ class GAIL(TRPO):
 
         Images are not yet handled properly by the current implementation
 
-
     :param policy: (ActorCriticPolicy or str) The policy model to use (MlpPolicy, CnnPolicy, CnnLstmPolicy, ...)
     :param env: (Gym environment or str) The environment to learn from (if registered in Gym, can be str)
     :param expert_dataset: (ExpertDataset) the dataset manager

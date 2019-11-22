@@ -160,6 +160,8 @@ def generate_expert_traj(model, save_path=None, env=None, n_timesteps=0,
     rewards = np.array(rewards)
     episode_starts = np.array(episode_starts[:-1])
 
+    print(observations.shape, actions.shape, rewards.shape)
+    print('Length of obs: {}, len of actions'.format(len(observations), len(actions)))
     assert len(observations) == len(actions)
 
     numpy_dict = {

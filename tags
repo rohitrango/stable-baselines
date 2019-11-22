@@ -1,0 +1,1302 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+A2C	stable_baselines/a2c/a2c.py	/^class A2C(ActorCriticRLModel):$/;"	c
+A2CRunner	stable_baselines/a2c/a2c.py	/^class A2CRunner(AbstractEnvRunner):$/;"	c
+ACER	stable_baselines/acer/acer_simple.py	/^class ACER(ActorCriticRLModel):$/;"	c
+ACKTR	stable_baselines/acktr/acktr.py	/^class ACKTR(ActorCriticRLModel):$/;"	c
+ALREADY_INITIALIZED	stable_baselines/common/tf_util.py	/^ALREADY_INITIALIZED = set()  # type: Set[tf.Variable]$/;"	v
+AbstractEnvRunner	stable_baselines/common/runners.py	/^class AbstractEnvRunner(ABC):$/;"	c
+ActionNoise	stable_baselines/common/noise.py	/^class ActionNoise(object):$/;"	c
+ActorCriticPolicy	stable_baselines/common/policies.py	/^class ActorCriticPolicy(BasePolicy):$/;"	c
+ActorCriticRLModel	stable_baselines/common/base_class.py	/^class ActorCriticRLModel(BaseRLModel):$/;"	c
+AdaptiveParamNoiseSpec	stable_baselines/common/noise.py	/^class AdaptiveParamNoiseSpec(object):$/;"	c
+AlreadySteppingError	stable_baselines/common/vec_env/base_vec_env.py	/^class AlreadySteppingError(Exception):$/;"	c
+BUILDDIR	docs/Makefile	/^BUILDDIR      = _build$/;"	m
+BUILDDIR	docs/make.bat	/^set BUILDDIR=_build$/;"	v
+BasePolicy	stable_baselines/common/policies.py	/^class BasePolicy(ABC):$/;"	c
+BaseRLModel	stable_baselines/common/base_class.py	/^class BaseRLModel(ABC):$/;"	c
+BernoulliProbabilityDistribution	stable_baselines/common/distributions.py	/^class BernoulliProbabilityDistribution(ProbabilityDistribution):$/;"	c
+BernoulliProbabilityDistributionType	stable_baselines/common/distributions.py	/^class BernoulliProbabilityDistributionType(ProbabilityDistributionType):$/;"	c
+BitFlippingEnv	stable_baselines/common/bit_flipping_env.py	/^class BitFlippingEnv(GoalEnv):$/;"	c
+Buffer	stable_baselines/acer/buffer.py	/^class Buffer(object):$/;"	c
+COLORS	stable_baselines/results_plotter.py	/^COLORS = ['blue', 'green', 'red', 'cyan', 'magenta', 'yellow', 'black', 'purple', 'pink',$/;"	v
+COLOR_TO_NUM	stable_baselines/common/console_util.py	/^COLOR_TO_NUM = dict($/;"	v
+CSVOutputFormat	stable_baselines/logger.py	/^class CSVOutputFormat(KVWriter):$/;"	c
+CURRENT	stable_baselines/logger.py	/^    CURRENT = None  # type: Optional["Logger"]$/;"	v	class:Logger
+CartPoleNoVelEnv	tests/test_lstm_policy.py	/^class CartPoleNoVelEnv(CartPoleEnv):$/;"	c
+CategoricalProbabilityDistribution	stable_baselines/common/distributions.py	/^class CategoricalProbabilityDistribution(ProbabilityDistribution):$/;"	c
+CategoricalProbabilityDistributionType	stable_baselines/common/distributions.py	/^class CategoricalProbabilityDistributionType(ProbabilityDistributionType):$/;"	c
+ClipRewardEnv	stable_baselines/common/atari_wrappers.py	/^class ClipRewardEnv(gym.RewardWrapper):$/;"	c
+CloudpickleWrapper	stable_baselines/common/vec_env/base_vec_env.py	/^class CloudpickleWrapper(object):$/;"	c
+CnnLnLstmPolicy	stable_baselines/common/policies.py	/^class CnnLnLstmPolicy(LstmPolicy):$/;"	c
+CnnLstmPolicy	stable_baselines/common/policies.py	/^class CnnLstmPolicy(LstmPolicy):$/;"	c
+CnnPolicy	stable_baselines/common/policies.py	/^class CnnPolicy(FeedForwardPolicy):$/;"	c
+CnnPolicy	stable_baselines/ddpg/policies.py	/^class CnnPolicy(FeedForwardPolicy):$/;"	c
+CnnPolicy	stable_baselines/deepq/policies.py	/^class CnnPolicy(FeedForwardPolicy):$/;"	c
+CnnPolicy	stable_baselines/sac/policies.py	/^class CnnPolicy(FeedForwardPolicy):$/;"	c
+CnnPolicy	stable_baselines/td3/policies.py	/^class CnnPolicy(FeedForwardPolicy):$/;"	c
+ConstantSchedule	stable_baselines/common/schedules.py	/^class ConstantSchedule(Schedule):$/;"	c
+CustomCommonPolicy	tests/test_custom_policy.py	/^class CustomCommonPolicy(FeedForwardPolicy):$/;"	c
+CustomDDPGPolicy	tests/test_custom_policy.py	/^class CustomDDPGPolicy(DDPGPolicy):$/;"	c
+CustomDQNPolicy	tests/test_custom_policy.py	/^class CustomDQNPolicy(DQNPolicy):$/;"	c
+CustomGymEnv	tests/test_vec_envs.py	/^class CustomGymEnv(gym.Env):$/;"	c
+CustomLSTMPolicy1	tests/test_lstm_policy.py	/^class CustomLSTMPolicy1(LstmPolicy):$/;"	c
+CustomLSTMPolicy2	tests/test_lstm_policy.py	/^class CustomLSTMPolicy2(LstmPolicy):$/;"	c
+CustomLSTMPolicy3	tests/test_lstm_policy.py	/^class CustomLSTMPolicy3(LstmPolicy):$/;"	c
+CustomLSTMPolicy4	tests/test_lstm_policy.py	/^class CustomLSTMPolicy4(LstmPolicy):$/;"	c
+CustomMlpPolicy	tests/test_save.py	/^class CustomMlpPolicy(FeedForwardPolicy):$/;"	c
+CustomPolicy	stable_baselines/deepq/experiments/custom_cartpole.py	/^class CustomPolicy(FeedForwardPolicy):$/;"	c
+CustomSACPolicy	tests/test_custom_policy.py	/^class CustomSACPolicy(SACPolicy):$/;"	c
+CustomWrapperA	tests/test_vec_envs.py	/^class CustomWrapperA(VecNormalize):$/;"	c
+CustomWrapperB	tests/test_vec_envs.py	/^class CustomWrapperB(VecNormalize):$/;"	c
+CustomWrapperBB	tests/test_vec_envs.py	/^class CustomWrapperBB(CustomWrapperB):$/;"	c
+DDPG	stable_baselines/ddpg/ddpg.py	/^class DDPG(OffPolicyRLModel):$/;"	c
+DDPGPolicy	stable_baselines/ddpg/policies.py	/^class DDPGPolicy(BasePolicy):$/;"	c
+DEBUG	stable_baselines/logger.py	/^DEBUG = 10$/;"	v
+DEFAULT	stable_baselines/logger.py	/^    DEFAULT = None  # type: Optional["Logger"]$/;"	v	class:Logger
+DISABLED	stable_baselines/logger.py	/^DISABLED = 50$/;"	v
+DQN	stable_baselines/deepq/dqn.py	/^class DQN(OffPolicyRLModel):$/;"	c
+DQNPolicy	stable_baselines/deepq/policies.py	/^class DQNPolicy(BasePolicy):$/;"	c
+DataLoader	stable_baselines/gail/dataset/dataset.py	/^class DataLoader(object):$/;"	c
+Dataset	stable_baselines/common/dataset.py	/^class Dataset(object):$/;"	c
+DiagGaussianProbabilityDistribution	stable_baselines/common/distributions.py	/^class DiagGaussianProbabilityDistribution(ProbabilityDistribution):$/;"	c
+DiagGaussianProbabilityDistributionType	stable_baselines/common/distributions.py	/^class DiagGaussianProbabilityDistributionType(ProbabilityDistributionType):$/;"	c
+DummyObject	tests/test_deepq.py	/^class DummyObject(object):$/;"	c
+DummyVecEnv	stable_baselines/common/vec_env/dummy_vec_env.py	/^class DummyVecEnv(VecEnv):$/;"	c
+ENV_ID	tests/test_a2c_conv.py	/^ENV_ID = 'BreakoutNoFrameskip-v4'$/;"	v
+ENV_ID	tests/test_atari.py	/^ENV_ID = 'BreakoutNoFrameskip-v4'$/;"	v
+ENV_ID	tests/test_vec_normalize.py	/^ENV_ID = 'Pendulum-v0'$/;"	v
+EPISODE	stable_baselines/her/replay_buffer.py	/^    EPISODE = 2$/;"	v	class:GoalSelectionStrategy
+EPISODES_WINDOW	stable_baselines/results_plotter.py	/^EPISODES_WINDOW = 100$/;"	v
+EPS	stable_baselines/sac/policies.py	/^EPS = 1e-6  # Avoid NaN (prevents division by zero or log of zero)$/;"	v
+ERROR	stable_baselines/logger.py	/^ERROR = 40$/;"	v
+EXPERT_PATH_DISCRETE	tests/test_gail.py	/^EXPERT_PATH_DISCRETE = "stable_baselines\/gail\/dataset\/expert_cartpole.npz"$/;"	v
+EXPERT_PATH_PENDULUM	tests/test_gail.py	/^EXPERT_PATH_PENDULUM = "stable_baselines\/gail\/dataset\/expert_pendulum.npz"$/;"	v
+EXT	stable_baselines/bench/monitor.py	/^    EXT = "monitor.csv"$/;"	v	class:Monitor
+EpisodeStats	stable_baselines/a2c/utils.py	/^class EpisodeStats:$/;"	c
+EpisodicLifeEnv	stable_baselines/common/atari_wrappers.py	/^class EpisodicLifeEnv(gym.Wrapper):$/;"	c
+ExpertDataset	stable_baselines/gail/dataset/dataset.py	/^class ExpertDataset(object):$/;"	c
+FINAL	stable_baselines/her/replay_buffer.py	/^    FINAL = 1$/;"	v	class:GoalSelectionStrategy
+FUTURE	stable_baselines/her/replay_buffer.py	/^    FUTURE = 0$/;"	v	class:GoalSelectionStrategy
+FeedForwardPolicy	stable_baselines/common/policies.py	/^class FeedForwardPolicy(ActorCriticPolicy):$/;"	c
+FeedForwardPolicy	stable_baselines/ddpg/policies.py	/^class FeedForwardPolicy(DDPGPolicy):$/;"	c
+FeedForwardPolicy	stable_baselines/deepq/policies.py	/^class FeedForwardPolicy(DQNPolicy):$/;"	c
+FeedForwardPolicy	stable_baselines/sac/policies.py	/^class FeedForwardPolicy(SACPolicy):$/;"	c
+FeedForwardPolicy	stable_baselines/td3/policies.py	/^class FeedForwardPolicy(TD3Policy):$/;"	c
+FireResetEnv	stable_baselines/common/atari_wrappers.py	/^class FireResetEnv(gym.Wrapper):$/;"	c
+FrameStack	stable_baselines/common/atari_wrappers.py	/^class FrameStack(gym.Wrapper):$/;"	c
+GAIL	stable_baselines/gail/model.py	/^class GAIL(TRPO):$/;"	c
+GetFlat	stable_baselines/common/tf_util.py	/^class GetFlat(object):$/;"	c
+GoalSelectionStrategy	stable_baselines/her/replay_buffer.py	/^class GoalSelectionStrategy(Enum):$/;"	c
+HER	stable_baselines/her/her.py	/^class HER(BaseRLModel):$/;"	c
+HERGoalEnvWrapper	stable_baselines/her/utils.py	/^class HERGoalEnvWrapper(object):$/;"	c
+HindsightExperienceReplayWrapper	stable_baselines/her/replay_buffer.py	/^class HindsightExperienceReplayWrapper(object):$/;"	c
+HumanOutputFormat	stable_baselines/logger.py	/^class HumanOutputFormat(KVWriter, SeqWriter):$/;"	c
+INFO	stable_baselines/logger.py	/^INFO = 20$/;"	v
+IdentityEnv	stable_baselines/common/identity_env.py	/^class IdentityEnv(Env):$/;"	c
+IdentityEnvBox	stable_baselines/common/identity_env.py	/^class IdentityEnvBox(IdentityEnv):$/;"	c
+IdentityEnvMultiBinary	stable_baselines/common/identity_env.py	/^class IdentityEnvMultiBinary(IdentityEnv):$/;"	c
+IdentityEnvMultiDiscrete	stable_baselines/common/identity_env.py	/^class IdentityEnvMultiDiscrete(IdentityEnv):$/;"	c
+JSONOutputFormat	stable_baselines/logger.py	/^class JSONOutputFormat(KVWriter):$/;"	c
+KEY_ORDER	stable_baselines/her/utils.py	/^KEY_ORDER = ['observation', 'achieved_goal', 'desired_goal']$/;"	v
+KEY_TO_GOAL_STRATEGY	stable_baselines/her/replay_buffer.py	/^KEY_TO_GOAL_STRATEGY = {$/;"	v
+KEY_VALUES	tests/test_logger.py	/^KEY_VALUES = {$/;"	v
+KFAC_DEBUG	stable_baselines/acktr/kfac.py	/^KFAC_DEBUG = False$/;"	v
+KFAC_OPS	stable_baselines/acktr/kfac.py	/^KFAC_OPS = ['MatMul', 'Conv2D', 'BiasAdd']$/;"	v
+KVWriter	stable_baselines/logger.py	/^class KVWriter(object):$/;"	c
+KfacOptimizer	stable_baselines/acktr/kfac.py	/^class KfacOptimizer:$/;"	c
+LEARN_FUNC_DICT	tests/test_identity.py	/^LEARN_FUNC_DICT = {$/;"	v
+LOG_DIR	tests/test_logger.py	/^LOG_DIR = '\/tmp\/openai_baselines\/'$/;"	v
+LOG_STD_MAX	stable_baselines/sac/policies.py	/^LOG_STD_MAX = 2$/;"	v
+LOG_STD_MIN	stable_baselines/sac/policies.py	/^LOG_STD_MIN = -20$/;"	v
+LSTM_POLICIES	tests/test_lstm_policy.py	/^LSTM_POLICIES = [MlpLstmPolicy, CustomLSTMPolicy1, CustomLSTMPolicy2, CustomLSTMPolicy3, CustomLSTMPolicy4]$/;"	v
+LazyFrames	stable_baselines/common/atari_wrappers.py	/^class LazyFrames(object):$/;"	c
+LinearSchedule	stable_baselines/common/schedules.py	/^class LinearSchedule(Schedule):$/;"	c
+LnCnnPolicy	stable_baselines/ddpg/policies.py	/^class LnCnnPolicy(FeedForwardPolicy):$/;"	c
+LnCnnPolicy	stable_baselines/deepq/policies.py	/^class LnCnnPolicy(FeedForwardPolicy):$/;"	c
+LnCnnPolicy	stable_baselines/sac/policies.py	/^class LnCnnPolicy(FeedForwardPolicy):$/;"	c
+LnCnnPolicy	stable_baselines/td3/policies.py	/^class LnCnnPolicy(FeedForwardPolicy):$/;"	c
+LnMlpPolicy	stable_baselines/ddpg/policies.py	/^class LnMlpPolicy(FeedForwardPolicy):$/;"	c
+LnMlpPolicy	stable_baselines/deepq/policies.py	/^class LnMlpPolicy(FeedForwardPolicy):$/;"	c
+LnMlpPolicy	stable_baselines/sac/policies.py	/^class LnMlpPolicy(FeedForwardPolicy):$/;"	c
+LnMlpPolicy	stable_baselines/td3/policies.py	/^class LnMlpPolicy(FeedForwardPolicy):$/;"	c
+LoadMonitorResultsError	stable_baselines/bench/monitor.py	/^class LoadMonitorResultsError(Exception):$/;"	c
+Logger	stable_baselines/logger.py	/^class Logger(object):$/;"	c
+LstmPolicy	stable_baselines/common/policies.py	/^class LstmPolicy(RecurrentActorCriticPolicy):$/;"	c
+MOCK_MODULES	docs/conf.py	/^MOCK_MODULES = ['joblib', 'scipy', 'scipy.signal',$/;"	v
+MODELS	tests/test_lstm_policy.py	/^MODELS = [A2C, ACER, ACKTR, PPO2]$/;"	v
+MODEL_DICT	tests/test_custom_policy.py	/^MODEL_DICT = {$/;"	v
+MODEL_DICT	tests/test_tensorboard.py	/^MODEL_DICT = {$/;"	v
+MODEL_LIST	tests/test_action_space.py	/^MODEL_LIST = [$/;"	v
+MODEL_LIST	tests/test_continuous.py	/^MODEL_LIST = [$/;"	v
+MODEL_LIST	tests/test_load_parameters.py	/^MODEL_LIST = [$/;"	v
+MODEL_LIST	tests/test_save.py	/^MODEL_LIST = [$/;"	v
+MaxAndSkipEnv	stable_baselines/common/atari_wrappers.py	/^class MaxAndSkipEnv(gym.Wrapper):$/;"	c
+MinSegmentTree	stable_baselines/common/segment_tree.py	/^class MinSegmentTree(SegmentTree):$/;"	c
+MlpLnLstmPolicy	stable_baselines/common/policies.py	/^class MlpLnLstmPolicy(LstmPolicy):$/;"	c
+MlpLstmPolicy	stable_baselines/common/policies.py	/^class MlpLstmPolicy(LstmPolicy):$/;"	c
+MlpPolicy	stable_baselines/common/policies.py	/^class MlpPolicy(FeedForwardPolicy):$/;"	c
+MlpPolicy	stable_baselines/ddpg/policies.py	/^class MlpPolicy(FeedForwardPolicy):$/;"	c
+MlpPolicy	stable_baselines/deepq/policies.py	/^class MlpPolicy(FeedForwardPolicy):$/;"	c
+MlpPolicy	stable_baselines/sac/policies.py	/^class MlpPolicy(FeedForwardPolicy):$/;"	c
+MlpPolicy	stable_baselines/td3/policies.py	/^class MlpPolicy(FeedForwardPolicy):$/;"	c
+Mock	docs/conf.py	/^class Mock(MagicMock):$/;"	c
+Monitor	stable_baselines/bench/monitor.py	/^class Monitor(Wrapper):$/;"	c
+MpiAdam	stable_baselines/common/mpi_adam.py	/^class MpiAdam(object):$/;"	c
+MultiCategoricalProbabilityDistribution	stable_baselines/common/distributions.py	/^class MultiCategoricalProbabilityDistribution(ProbabilityDistribution):$/;"	c
+MultiCategoricalProbabilityDistributionType	stable_baselines/common/distributions.py	/^class MultiCategoricalProbabilityDistributionType(ProbabilityDistributionType):$/;"	c
+NUM_CPU	tests/test_atari.py	/^NUM_CPU = 2$/;"	v
+NUM_ENVS	tests/test_lstm_policy.py	/^NUM_ENVS = 16$/;"	v
+NUM_EPISODES_FOR_SCORE	tests/test_lstm_policy.py	/^NUM_EPISODES_FOR_SCORE = 10$/;"	v
+NUM_TIMESTEPS	tests/test_atari.py	/^NUM_TIMESTEPS = 500$/;"	v
+NUM_TIMESTEPS	tests/test_continuous.py	/^NUM_TIMESTEPS = 15000$/;"	v
+N_BITS	tests/test_her.py	/^N_BITS = 10$/;"	v
+N_ENVS	tests/test_vec_envs.py	/^N_ENVS = 3$/;"	v
+N_STEPS	tests/test_tensorboard.py	/^N_STEPS = 1000$/;"	v
+N_STEPS_TRAINING	tests/test_0deterministic.py	/^N_STEPS_TRAINING = 5000$/;"	v
+N_TRIALS	tests/test_continuous.py	/^N_TRIALS = 1000$/;"	v
+N_TRIALS	tests/test_custom_policy.py	/^N_TRIALS = 100$/;"	v
+N_TRIALS	tests/test_lstm_policy.py	/^N_TRIALS = 100$/;"	v
+N_TRIALS	tests/test_save.py	/^N_TRIALS = 2000$/;"	v
+NanAndInfEnv	tests/test_vec_check_nan.py	/^class NanAndInfEnv(gym.Env):$/;"	c
+NoopResetEnv	stable_baselines/common/atari_wrappers.py	/^class NoopResetEnv(gym.Wrapper):$/;"	c
+NormalActionNoise	stable_baselines/common/noise.py	/^class NormalActionNoise(ActionNoise):$/;"	c
+NotSteppingError	stable_baselines/common/vec_env/base_vec_env.py	/^class NotSteppingError(Exception):$/;"	c
+OffPolicyRLModel	stable_baselines/common/base_class.py	/^class OffPolicyRLModel(BaseRLModel):$/;"	c
+OrnsteinUhlenbeckActionNoise	stable_baselines/common/noise.py	/^class OrnsteinUhlenbeckActionNoise(ActionNoise):$/;"	c
+POSSIBLE_X_AXES	stable_baselines/results_plotter.py	/^POSSIBLE_X_AXES = [X_TIMESTEPS, X_EPISODES, X_WALLTIME]$/;"	v
+PPO1	stable_baselines/ppo1/pposgd_simple.py	/^class PPO1(ActorCriticRLModel):$/;"	c
+PPO2	stable_baselines/ppo2/ppo2.py	/^class PPO2(ActorCriticRLModel):$/;"	c
+PiecewiseSchedule	stable_baselines/common/schedules.py	/^class PiecewiseSchedule(Schedule):$/;"	c
+PrioritizedReplayBuffer	stable_baselines/deepq/replay_buffer.py	/^class PrioritizedReplayBuffer(ReplayBuffer):$/;"	c
+ProbabilityDistribution	stable_baselines/common/distributions.py	/^class ProbabilityDistribution(object):$/;"	c
+ProbabilityDistributionType	stable_baselines/common/distributions.py	/^class ProbabilityDistributionType(object):$/;"	c
+ProfileKV	stable_baselines/logger.py	/^class ProfileKV:$/;"	c
+RANDOM	stable_baselines/her/replay_buffer.py	/^    RANDOM = 3$/;"	v	class:GoalSelectionStrategy
+RecurrentActorCriticPolicy	stable_baselines/common/policies.py	/^class RecurrentActorCriticPolicy(ActorCriticPolicy):$/;"	c
+ReplayBuffer	stable_baselines/deepq/replay_buffer.py	/^class ReplayBuffer(object):$/;"	c
+Runner	stable_baselines/ppo2/ppo2.py	/^class Runner(AbstractEnvRunner):$/;"	c
+RunningMeanStd	stable_baselines/common/mpi_running_mean_std.py	/^class RunningMeanStd(object):$/;"	c
+RunningMeanStd	stable_baselines/common/running_mean_std.py	/^class RunningMeanStd(object):$/;"	c
+SAC	stable_baselines/sac/sac.py	/^class SAC(OffPolicyRLModel):$/;"	c
+SACPolicy	stable_baselines/sac/policies.py	/^class SACPolicy(BasePolicy):$/;"	c
+SCHEDULES	stable_baselines/a2c/utils.py	/^SCHEDULES = {$/;"	v
+SEED	tests/test_0deterministic.py	/^SEED = 0$/;"	v
+SEED	tests/test_a2c_conv.py	/^SEED = 3$/;"	v
+SEED	tests/test_atari.py	/^SEED = 3$/;"	v
+SOURCEDIR	docs/Makefile	/^SOURCEDIR     = .$/;"	m
+SOURCEDIR	docs/make.bat	/^set SOURCEDIR=.$/;"	v
+SPACES	tests/test_vec_envs.py	/^SPACES = collections.OrderedDict([$/;"	v
+SPHINXBUILD	docs/Makefile	/^SPHINXBUILD   = sphinx-build$/;"	m
+SPHINXBUILD	docs/make.bat	/^	set SPHINXBUILD=sphinx-build$/;"	v
+SPHINXOPTS	docs/Makefile	/^SPHINXOPTS    = -W  # make warnings fatal$/;"	m
+SPHINXPROJ	docs/Makefile	/^SPHINXPROJ    = StableBaselines$/;"	m
+SPHINXPROJ	docs/make.bat	/^set SPHINXPROJ=StableBaselines$/;"	v
+STORE_FORMAT	tests/test_save.py	/^STORE_FORMAT = [$/;"	v
+STORE_METHODS	tests/test_save.py	/^STORE_METHODS = [$/;"	v
+ScaledFloatFrame	stable_baselines/common/atari_wrappers.py	/^class ScaledFloatFrame(gym.ObservationWrapper):$/;"	c
+Schedule	stable_baselines/common/schedules.py	/^class Schedule(object):$/;"	c
+Scheduler	stable_baselines/a2c/utils.py	/^class Scheduler(object):$/;"	c
+ScopedConfigure	stable_baselines/logger.py	/^class ScopedConfigure(object):$/;"	c
+SegmentTree	stable_baselines/common/segment_tree.py	/^class SegmentTree(object):$/;"	c
+SeqWriter	stable_baselines/logger.py	/^class SeqWriter(object):$/;"	c
+SetFromFlat	stable_baselines/common/tf_util.py	/^class SetFromFlat(object):$/;"	c
+SetVerbosity	stable_baselines/common/base_class.py	/^class SetVerbosity:$/;"	c
+StepEnv	tests/test_vec_envs.py	/^class StepEnv(gym.Env):$/;"	c
+SubprocVecEnv	stable_baselines/common/vec_env/subproc_vec_env.py	/^class SubprocVecEnv(VecEnv):$/;"	c
+SumSegmentTree	stable_baselines/common/segment_tree.py	/^class SumSegmentTree(SegmentTree):$/;"	c
+TD3	stable_baselines/td3/td3.py	/^class TD3(OffPolicyRLModel):$/;"	c
+TD3Policy	stable_baselines/td3/policies.py	/^class TD3Policy(BasePolicy):$/;"	c
+TENSORBOARD_DIR	tests/test_tensorboard.py	/^TENSORBOARD_DIR = '\/tmp\/tb_dir\/'$/;"	v
+TRPO	stable_baselines/trpo_mpi/trpo_mpi.py	/^class TRPO(ActorCriticRLModel):$/;"	c
+TensorBoardOutputFormat	stable_baselines/logger.py	/^class TensorBoardOutputFormat(KVWriter):$/;"	c
+TensorboardWriter	stable_baselines/common/base_class.py	/^class TensorboardWriter:$/;"	c
+TransitionClassifier	stable_baselines/gail/adversary.py	/^class TransitionClassifier(object):$/;"	c
+VEC_ENV_CLASSES	tests/test_vec_envs.py	/^VEC_ENV_CLASSES = [DummyVecEnv, SubprocVecEnv]$/;"	v
+VEC_ENV_WRAPPERS	tests/test_vec_envs.py	/^VEC_ENV_WRAPPERS = [None, VecNormalize, VecFrameStack]$/;"	v
+VecCheckNan	stable_baselines/common/vec_env/vec_check_nan.py	/^class VecCheckNan(VecEnvWrapper):$/;"	c
+VecEnv	stable_baselines/common/vec_env/base_vec_env.py	/^class VecEnv(ABC):$/;"	c
+VecEnvWrapper	stable_baselines/common/vec_env/base_vec_env.py	/^class VecEnvWrapper(VecEnv):$/;"	c
+VecFrameStack	stable_baselines/common/vec_env/vec_frame_stack.py	/^class VecFrameStack(VecEnvWrapper):$/;"	c
+VecNormalize	stable_baselines/common/vec_env/vec_normalize.py	/^class VecNormalize(VecEnvWrapper):$/;"	c
+VecVideoRecorder	stable_baselines/common/vec_env/vec_video_recorder.py	/^class VecVideoRecorder(VecEnvWrapper):$/;"	c
+WARN	stable_baselines/logger.py	/^WARN = 30$/;"	v
+WarpFrame	stable_baselines/common/atari_wrappers.py	/^class WarpFrame(gym.ObservationWrapper):$/;"	c
+X_EPISODES	stable_baselines/results_plotter.py	/^X_EPISODES = 'episodes'$/;"	v
+X_TIMESTEPS	stable_baselines/results_plotter.py	/^X_TIMESTEPS = 'timesteps'$/;"	v
+X_WALLTIME	stable_baselines/results_plotter.py	/^X_WALLTIME = 'walltime_hrs'$/;"	v
+_Function	stable_baselines/common/tf_util.py	/^class _Function(object):$/;"	c
+_Runner	stable_baselines/acer/acer_simple.py	/^class _Runner(AbstractEnvRunner):$/;"	c
+_UnorderedDictSpace	tests/test_vec_envs.py	/^class _UnorderedDictSpace(gym.spaces.Dict):$/;"	c
+_UnvecWrapper	stable_baselines/common/base_class.py	/^class _UnvecWrapper(VecEnvWrapper):$/;"	c
+__all__	stable_baselines/bench/monitor.py	/^__all__ = ['Monitor', 'get_monitor_files', 'load_results']$/;"	v
+__array__	stable_baselines/common/atari_wrappers.py	/^    def __array__(self, dtype=None):$/;"	m	class:LazyFrames	file:
+__call__	stable_baselines/common/noise.py	/^    def __call__(self):$/;"	m	class:NormalActionNoise	file:
+__call__	stable_baselines/common/noise.py	/^    def __call__(self):$/;"	m	class:OrnsteinUhlenbeckActionNoise	file:
+__call__	stable_baselines/common/tf_util.py	/^    def __call__(self):$/;"	m	class:GetFlat	file:
+__call__	stable_baselines/common/tf_util.py	/^    def __call__(self, *args, sess=None, **kwargs):$/;"	m	class:_Function	file:
+__call__	stable_baselines/common/tf_util.py	/^    def __call__(self, theta):$/;"	m	class:SetFromFlat	file:
+__del__	stable_baselines/common/vec_env/vec_video_recorder.py	/^    def __del__(self):$/;"	m	class:VecVideoRecorder	file:
+__del__	stable_baselines/gail/dataset/dataset.py	/^    def __del__(self):$/;"	m	class:DataLoader	file:
+__del__	stable_baselines/gail/dataset/dataset.py	/^    def __del__(self):$/;"	m	class:ExpertDataset	file:
+__enter__	stable_baselines/common/base_class.py	/^    def __enter__(self):$/;"	m	class:SetVerbosity	file:
+__enter__	stable_baselines/common/base_class.py	/^    def __enter__(self):$/;"	m	class:TensorboardWriter	file:
+__enter__	stable_baselines/logger.py	/^    def __enter__(self):$/;"	m	class:ProfileKV	file:
+__enter__	stable_baselines/logger.py	/^    def __enter__(self):$/;"	m	class:ScopedConfigure	file:
+__exit__	stable_baselines/common/base_class.py	/^    def __exit__(self, exc_type, exc_val, exc_tb):$/;"	m	class:SetVerbosity	file:
+__exit__	stable_baselines/common/base_class.py	/^    def __exit__(self, exc_type, exc_val, exc_tb):$/;"	m	class:TensorboardWriter	file:
+__exit__	stable_baselines/logger.py	/^    def __exit__(self, *args):$/;"	m	class:ScopedConfigure	file:
+__exit__	stable_baselines/logger.py	/^    def __exit__(self, _type, value, traceback):$/;"	m	class:ProfileKV	file:
+__getattr__	docs/conf.py	/^    def __getattr__(cls, name):$/;"	m	class:Mock	file:
+__getattr__	stable_baselines/common/base_class.py	/^    def __getattr__(self, attr):$/;"	m	class:_UnvecWrapper	file:
+__getattr__	stable_baselines/common/vec_env/base_vec_env.py	/^    def __getattr__(self, name):$/;"	m	class:VecEnvWrapper	file:
+__getattr__	stable_baselines/her/her.py	/^    def __getattr__(self, attr):$/;"	m	class:HER	file:
+__getitem__	stable_baselines/common/atari_wrappers.py	/^    def __getitem__(self, i):$/;"	m	class:LazyFrames	file:
+__getitem__	stable_baselines/common/segment_tree.py	/^    def __getitem__(self, idx):$/;"	m	class:SegmentTree	file:
+__getstate__	stable_baselines/common/vec_env/base_vec_env.py	/^    def __getstate__(self):$/;"	m	class:CloudpickleWrapper	file:
+__getstate__	stable_baselines/common/vec_env/vec_normalize.py	/^    def __getstate__(self):$/;"	m	class:VecNormalize	file:
+__init__	stable_baselines/a2c/a2c.py	/^    def __init__(self, env, model, n_steps=5, gamma=0.99):$/;"	m	class:A2CRunner
+__init__	stable_baselines/a2c/a2c.py	/^    def __init__(self, policy, env, gamma=0.99, n_steps=5, vf_coef=0.25, ent_coef=0.01, max_grad_norm=0.5,$/;"	m	class:A2C
+__init__	stable_baselines/a2c/utils.py	/^    def __init__(self, initial_value, n_values, schedule):$/;"	m	class:Scheduler
+__init__	stable_baselines/a2c/utils.py	/^    def __init__(self, n_steps, n_envs):$/;"	m	class:EpisodeStats
+__init__	stable_baselines/acer/acer_simple.py	/^    def __init__(self, env, model, n_steps):$/;"	m	class:_Runner
+__init__	stable_baselines/acer/acer_simple.py	/^    def __init__(self, policy, env, gamma=0.99, n_steps=20, num_procs=None, q_coef=0.5, ent_coef=0.01, max_grad_norm=10,$/;"	m	class:ACER
+__init__	stable_baselines/acer/buffer.py	/^    def __init__(self, env, n_steps, size=50000):$/;"	m	class:Buffer
+__init__	stable_baselines/acktr/acktr.py	/^    def __init__(self, policy, env, gamma=0.99, nprocs=None, n_steps=20, ent_coef=0.01, vf_coef=0.25, vf_fisher_coef=1.0,$/;"	m	class:ACKTR
+__init__	stable_baselines/acktr/kfac.py	/^    def __init__(self, learning_rate=0.01, momentum=0.9, clip_kl=0.01, kfac_update=2, stats_accum_iter=60,$/;"	m	class:KfacOptimizer
+__init__	stable_baselines/bench/monitor.py	/^    def __init__(self, env, filename, allow_early_resets=False, reset_keywords=(), info_keywords=()):$/;"	m	class:Monitor
+__init__	stable_baselines/common/atari_wrappers.py	/^    def __init__(self, env):$/;"	m	class:ClipRewardEnv
+__init__	stable_baselines/common/atari_wrappers.py	/^    def __init__(self, env):$/;"	m	class:EpisodicLifeEnv
+__init__	stable_baselines/common/atari_wrappers.py	/^    def __init__(self, env):$/;"	m	class:FireResetEnv
+__init__	stable_baselines/common/atari_wrappers.py	/^    def __init__(self, env):$/;"	m	class:ScaledFloatFrame
+__init__	stable_baselines/common/atari_wrappers.py	/^    def __init__(self, env):$/;"	m	class:WarpFrame
+__init__	stable_baselines/common/atari_wrappers.py	/^    def __init__(self, env, n_frames):$/;"	m	class:FrameStack
+__init__	stable_baselines/common/atari_wrappers.py	/^    def __init__(self, env, noop_max=30):$/;"	m	class:NoopResetEnv
+__init__	stable_baselines/common/atari_wrappers.py	/^    def __init__(self, env, skip=4):$/;"	m	class:MaxAndSkipEnv
+__init__	stable_baselines/common/atari_wrappers.py	/^    def __init__(self, frames):$/;"	m	class:LazyFrames
+__init__	stable_baselines/common/base_class.py	/^    def __init__(self, graph, tensorboard_log_path, tb_log_name, new_tb_log=True):$/;"	m	class:TensorboardWriter
+__init__	stable_baselines/common/base_class.py	/^    def __init__(self, policy, env, _init_setup_model, verbose=0, policy_base=ActorCriticPolicy,$/;"	m	class:ActorCriticRLModel
+__init__	stable_baselines/common/base_class.py	/^    def __init__(self, policy, env, replay_buffer=None, _init_setup_model=False, verbose=0, *,$/;"	m	class:OffPolicyRLModel
+__init__	stable_baselines/common/base_class.py	/^    def __init__(self, policy, env, verbose=0, *, requires_vec_env, policy_base,$/;"	m	class:BaseRLModel
+__init__	stable_baselines/common/base_class.py	/^    def __init__(self, venv):$/;"	m	class:_UnvecWrapper
+__init__	stable_baselines/common/base_class.py	/^    def __init__(self, verbose=0):$/;"	m	class:SetVerbosity
+__init__	stable_baselines/common/bit_flipping_env.py	/^    def __init__(self, n_bits=10, continuous=False, max_steps=None,$/;"	m	class:BitFlippingEnv
+__init__	stable_baselines/common/dataset.py	/^    def __init__(self, data_map, shuffle=True):$/;"	m	class:Dataset
+__init__	stable_baselines/common/distributions.py	/^    def __init__(self):$/;"	m	class:ProbabilityDistribution
+__init__	stable_baselines/common/distributions.py	/^    def __init__(self, flat):$/;"	m	class:DiagGaussianProbabilityDistribution
+__init__	stable_baselines/common/distributions.py	/^    def __init__(self, logits):$/;"	m	class:BernoulliProbabilityDistribution
+__init__	stable_baselines/common/distributions.py	/^    def __init__(self, logits):$/;"	m	class:CategoricalProbabilityDistribution
+__init__	stable_baselines/common/distributions.py	/^    def __init__(self, n_cat):$/;"	m	class:CategoricalProbabilityDistributionType
+__init__	stable_baselines/common/distributions.py	/^    def __init__(self, n_vec):$/;"	m	class:MultiCategoricalProbabilityDistributionType
+__init__	stable_baselines/common/distributions.py	/^    def __init__(self, nvec, flat):$/;"	m	class:MultiCategoricalProbabilityDistribution
+__init__	stable_baselines/common/distributions.py	/^    def __init__(self, size):$/;"	m	class:BernoulliProbabilityDistributionType
+__init__	stable_baselines/common/distributions.py	/^    def __init__(self, size):$/;"	m	class:DiagGaussianProbabilityDistributionType
+__init__	stable_baselines/common/identity_env.py	/^    def __init__(self, dim, ep_length=100):$/;"	m	class:IdentityEnv
+__init__	stable_baselines/common/identity_env.py	/^    def __init__(self, dim, ep_length=100):$/;"	m	class:IdentityEnvMultiBinary
+__init__	stable_baselines/common/identity_env.py	/^    def __init__(self, dim, ep_length=100):$/;"	m	class:IdentityEnvMultiDiscrete
+__init__	stable_baselines/common/identity_env.py	/^    def __init__(self, low=-1, high=1, eps=0.05, ep_length=100):$/;"	m	class:IdentityEnvBox
+__init__	stable_baselines/common/mpi_adam.py	/^    def __init__(self, var_list, *, beta1=0.9, beta2=0.999, epsilon=1e-08, scale_grad_by_procs=True, comm=None,$/;"	m	class:MpiAdam
+__init__	stable_baselines/common/mpi_running_mean_std.py	/^    def __init__(self, epsilon=1e-2, shape=()):$/;"	m	class:RunningMeanStd
+__init__	stable_baselines/common/noise.py	/^    def __init__(self, initial_stddev=0.1, desired_action_stddev=0.1, adoption_coefficient=1.01):$/;"	m	class:AdaptiveParamNoiseSpec
+__init__	stable_baselines/common/noise.py	/^    def __init__(self, mean, sigma):$/;"	m	class:NormalActionNoise
+__init__	stable_baselines/common/noise.py	/^    def __init__(self, mean, sigma, theta=.15, dt=1e-2, initial_noise=None):$/;"	m	class:OrnsteinUhlenbeckActionNoise
+__init__	stable_baselines/common/policies.py	/^    def __init__(self, sess, ob_space, ac_space, n_env, n_steps, n_batch, n_lstm=256, reuse=False, **_kwargs):$/;"	m	class:CnnLnLstmPolicy
+__init__	stable_baselines/common/policies.py	/^    def __init__(self, sess, ob_space, ac_space, n_env, n_steps, n_batch, n_lstm=256, reuse=False, **_kwargs):$/;"	m	class:CnnLstmPolicy
+__init__	stable_baselines/common/policies.py	/^    def __init__(self, sess, ob_space, ac_space, n_env, n_steps, n_batch, n_lstm=256, reuse=False, **_kwargs):$/;"	m	class:MlpLnLstmPolicy
+__init__	stable_baselines/common/policies.py	/^    def __init__(self, sess, ob_space, ac_space, n_env, n_steps, n_batch, n_lstm=256, reuse=False, **_kwargs):$/;"	m	class:MlpLstmPolicy
+__init__	stable_baselines/common/policies.py	/^    def __init__(self, sess, ob_space, ac_space, n_env, n_steps, n_batch, n_lstm=256, reuse=False, layers=None,$/;"	m	class:LstmPolicy
+__init__	stable_baselines/common/policies.py	/^    def __init__(self, sess, ob_space, ac_space, n_env, n_steps, n_batch, reuse=False, **_kwargs):$/;"	m	class:CnnPolicy
+__init__	stable_baselines/common/policies.py	/^    def __init__(self, sess, ob_space, ac_space, n_env, n_steps, n_batch, reuse=False, **_kwargs):$/;"	m	class:MlpPolicy
+__init__	stable_baselines/common/policies.py	/^    def __init__(self, sess, ob_space, ac_space, n_env, n_steps, n_batch, reuse=False, layers=None, net_arch=None,$/;"	m	class:FeedForwardPolicy
+__init__	stable_baselines/common/policies.py	/^    def __init__(self, sess, ob_space, ac_space, n_env, n_steps, n_batch, reuse=False, scale=False):$/;"	m	class:ActorCriticPolicy
+__init__	stable_baselines/common/policies.py	/^    def __init__(self, sess, ob_space, ac_space, n_env, n_steps, n_batch, reuse=False, scale=False,$/;"	m	class:BasePolicy
+__init__	stable_baselines/common/policies.py	/^    def __init__(self, sess, ob_space, ac_space, n_env, n_steps, n_batch,$/;"	m	class:RecurrentActorCriticPolicy
+__init__	stable_baselines/common/runners.py	/^    def __init__(self, *, env, model, n_steps):$/;"	m	class:AbstractEnvRunner
+__init__	stable_baselines/common/running_mean_std.py	/^    def __init__(self, epsilon=1e-4, shape=()):$/;"	m	class:RunningMeanStd
+__init__	stable_baselines/common/schedules.py	/^    def __init__(self, endpoints, interpolation=linear_interpolation, outside_value=None):$/;"	m	class:PiecewiseSchedule
+__init__	stable_baselines/common/schedules.py	/^    def __init__(self, schedule_timesteps, final_p, initial_p=1.0):$/;"	m	class:LinearSchedule
+__init__	stable_baselines/common/schedules.py	/^    def __init__(self, value):$/;"	m	class:ConstantSchedule
+__init__	stable_baselines/common/segment_tree.py	/^    def __init__(self, capacity):$/;"	m	class:MinSegmentTree
+__init__	stable_baselines/common/segment_tree.py	/^    def __init__(self, capacity):$/;"	m	class:SumSegmentTree
+__init__	stable_baselines/common/segment_tree.py	/^    def __init__(self, capacity, operation, neutral_element):$/;"	m	class:SegmentTree
+__init__	stable_baselines/common/tf_util.py	/^    def __init__(self, inputs, outputs, updates, givens):$/;"	m	class:_Function
+__init__	stable_baselines/common/tf_util.py	/^    def __init__(self, var_list, dtype=tf.float32, sess=None):$/;"	m	class:SetFromFlat
+__init__	stable_baselines/common/tf_util.py	/^    def __init__(self, var_list, sess=None):$/;"	m	class:GetFlat
+__init__	stable_baselines/common/vec_env/base_vec_env.py	/^    def __init__(self):$/;"	m	class:AlreadySteppingError
+__init__	stable_baselines/common/vec_env/base_vec_env.py	/^    def __init__(self):$/;"	m	class:NotSteppingError
+__init__	stable_baselines/common/vec_env/base_vec_env.py	/^    def __init__(self, num_envs, observation_space, action_space):$/;"	m	class:VecEnv
+__init__	stable_baselines/common/vec_env/base_vec_env.py	/^    def __init__(self, var):$/;"	m	class:CloudpickleWrapper
+__init__	stable_baselines/common/vec_env/base_vec_env.py	/^    def __init__(self, venv, observation_space=None, action_space=None):$/;"	m	class:VecEnvWrapper
+__init__	stable_baselines/common/vec_env/dummy_vec_env.py	/^    def __init__(self, env_fns):$/;"	m	class:DummyVecEnv
+__init__	stable_baselines/common/vec_env/subproc_vec_env.py	/^    def __init__(self, env_fns, start_method=None):$/;"	m	class:SubprocVecEnv
+__init__	stable_baselines/common/vec_env/vec_check_nan.py	/^    def __init__(self, venv, raise_exception=False, warn_once=True, check_inf=True):$/;"	m	class:VecCheckNan
+__init__	stable_baselines/common/vec_env/vec_frame_stack.py	/^    def __init__(self, venv, n_stack):$/;"	m	class:VecFrameStack
+__init__	stable_baselines/common/vec_env/vec_normalize.py	/^    def __init__(self, venv, training=True, norm_obs=True, norm_reward=True,$/;"	m	class:VecNormalize
+__init__	stable_baselines/common/vec_env/vec_video_recorder.py	/^    def __init__(self, venv, video_folder, record_video_trigger,$/;"	m	class:VecVideoRecorder
+__init__	stable_baselines/ddpg/ddpg.py	/^    def __init__(self, policy, env, gamma=0.99, memory_policy=None, eval_env=None, nb_train_steps=50,$/;"	m	class:DDPG
+__init__	stable_baselines/ddpg/policies.py	/^    def __init__(self, sess, ob_space, ac_space, n_env, n_steps, n_batch, reuse=False, **_kwargs):$/;"	m	class:CnnPolicy
+__init__	stable_baselines/ddpg/policies.py	/^    def __init__(self, sess, ob_space, ac_space, n_env, n_steps, n_batch, reuse=False, **_kwargs):$/;"	m	class:LnCnnPolicy
+__init__	stable_baselines/ddpg/policies.py	/^    def __init__(self, sess, ob_space, ac_space, n_env, n_steps, n_batch, reuse=False, **_kwargs):$/;"	m	class:LnMlpPolicy
+__init__	stable_baselines/ddpg/policies.py	/^    def __init__(self, sess, ob_space, ac_space, n_env, n_steps, n_batch, reuse=False, **_kwargs):$/;"	m	class:MlpPolicy
+__init__	stable_baselines/ddpg/policies.py	/^    def __init__(self, sess, ob_space, ac_space, n_env, n_steps, n_batch, reuse=False, layers=None,$/;"	m	class:FeedForwardPolicy
+__init__	stable_baselines/ddpg/policies.py	/^    def __init__(self, sess, ob_space, ac_space, n_env, n_steps, n_batch, reuse=False, scale=False):$/;"	m	class:DDPGPolicy
+__init__	stable_baselines/deepq/dqn.py	/^    def __init__(self, policy, env, gamma=0.99, learning_rate=5e-4, buffer_size=50000, exploration_fraction=0.1,$/;"	m	class:DQN
+__init__	stable_baselines/deepq/experiments/custom_cartpole.py	/^    def __init__(self, *args, **kwargs):$/;"	m	class:CustomPolicy
+__init__	stable_baselines/deepq/policies.py	/^    def __init__(self, sess, ob_space, ac_space, n_env, n_steps, n_batch, reuse=False, layers=None,$/;"	m	class:FeedForwardPolicy
+__init__	stable_baselines/deepq/policies.py	/^    def __init__(self, sess, ob_space, ac_space, n_env, n_steps, n_batch, reuse=False, scale=False,$/;"	m	class:DQNPolicy
+__init__	stable_baselines/deepq/policies.py	/^    def __init__(self, sess, ob_space, ac_space, n_env, n_steps, n_batch,$/;"	m	class:CnnPolicy
+__init__	stable_baselines/deepq/policies.py	/^    def __init__(self, sess, ob_space, ac_space, n_env, n_steps, n_batch,$/;"	m	class:LnCnnPolicy
+__init__	stable_baselines/deepq/policies.py	/^    def __init__(self, sess, ob_space, ac_space, n_env, n_steps, n_batch,$/;"	m	class:LnMlpPolicy
+__init__	stable_baselines/deepq/policies.py	/^    def __init__(self, sess, ob_space, ac_space, n_env, n_steps, n_batch,$/;"	m	class:MlpPolicy
+__init__	stable_baselines/deepq/replay_buffer.py	/^    def __init__(self, size):$/;"	m	class:ReplayBuffer
+__init__	stable_baselines/deepq/replay_buffer.py	/^    def __init__(self, size, alpha):$/;"	m	class:PrioritizedReplayBuffer
+__init__	stable_baselines/gail/adversary.py	/^    def __init__(self, observation_space, action_space, hidden_size,$/;"	m	class:TransitionClassifier
+__init__	stable_baselines/gail/dataset/dataset.py	/^    def __init__(self, expert_path=None, traj_data=None, train_fraction=0.7, batch_size=64,$/;"	m	class:ExpertDataset
+__init__	stable_baselines/gail/dataset/dataset.py	/^    def __init__(self, indices, observations, actions, batch_size, n_workers=1,$/;"	m	class:DataLoader
+__init__	stable_baselines/gail/model.py	/^    def __init__(self, policy, env, expert_dataset=None,$/;"	m	class:GAIL
+__init__	stable_baselines/her/her.py	/^    def __init__(self, policy, env, model_class, n_sampled_goal=4,$/;"	m	class:HER
+__init__	stable_baselines/her/replay_buffer.py	/^    def __init__(self, replay_buffer, n_sampled_goal, goal_selection_strategy, wrapped_env):$/;"	m	class:HindsightExperienceReplayWrapper
+__init__	stable_baselines/her/utils.py	/^    def __init__(self, env):$/;"	m	class:HERGoalEnvWrapper
+__init__	stable_baselines/logger.py	/^    def __init__(self, filename):$/;"	m	class:CSVOutputFormat
+__init__	stable_baselines/logger.py	/^    def __init__(self, filename):$/;"	m	class:JSONOutputFormat
+__init__	stable_baselines/logger.py	/^    def __init__(self, filename_or_file):$/;"	m	class:HumanOutputFormat
+__init__	stable_baselines/logger.py	/^    def __init__(self, folder):$/;"	m	class:TensorBoardOutputFormat
+__init__	stable_baselines/logger.py	/^    def __init__(self, folder, output_formats):$/;"	m	class:Logger
+__init__	stable_baselines/logger.py	/^    def __init__(self, folder=None, format_strs=None):$/;"	m	class:ScopedConfigure
+__init__	stable_baselines/logger.py	/^    def __init__(self, name):$/;"	m	class:ProfileKV
+__init__	stable_baselines/ppo1/pposgd_simple.py	/^    def __init__(self, policy, env, gamma=0.99, timesteps_per_actorbatch=256, clip_param=0.2, entcoeff=0.01,$/;"	m	class:PPO1
+__init__	stable_baselines/ppo2/ppo2.py	/^    def __init__(self, *, env, model, n_steps, gamma, lam):$/;"	m	class:Runner
+__init__	stable_baselines/ppo2/ppo2.py	/^    def __init__(self, policy, env, gamma=0.99, n_steps=128, ent_coef=0.01, learning_rate=2.5e-4, vf_coef=0.5,$/;"	m	class:PPO2
+__init__	stable_baselines/sac/policies.py	/^    def __init__(self, sess, ob_space, ac_space, n_env=1, n_steps=1, n_batch=None, reuse=False, **_kwargs):$/;"	m	class:CnnPolicy
+__init__	stable_baselines/sac/policies.py	/^    def __init__(self, sess, ob_space, ac_space, n_env=1, n_steps=1, n_batch=None, reuse=False, **_kwargs):$/;"	m	class:LnCnnPolicy
+__init__	stable_baselines/sac/policies.py	/^    def __init__(self, sess, ob_space, ac_space, n_env=1, n_steps=1, n_batch=None, reuse=False, **_kwargs):$/;"	m	class:LnMlpPolicy
+__init__	stable_baselines/sac/policies.py	/^    def __init__(self, sess, ob_space, ac_space, n_env=1, n_steps=1, n_batch=None, reuse=False, **_kwargs):$/;"	m	class:MlpPolicy
+__init__	stable_baselines/sac/policies.py	/^    def __init__(self, sess, ob_space, ac_space, n_env=1, n_steps=1, n_batch=None, reuse=False, layers=None,$/;"	m	class:FeedForwardPolicy
+__init__	stable_baselines/sac/policies.py	/^    def __init__(self, sess, ob_space, ac_space, n_env=1, n_steps=1, n_batch=None, reuse=False, scale=False):$/;"	m	class:SACPolicy
+__init__	stable_baselines/sac/sac.py	/^    def __init__(self, policy, env, gamma=0.99, learning_rate=3e-4, buffer_size=50000,$/;"	m	class:SAC
+__init__	stable_baselines/td3/policies.py	/^    def __init__(self, sess, ob_space, ac_space, n_env=1, n_steps=1, n_batch=None, reuse=False, **_kwargs):$/;"	m	class:CnnPolicy
+__init__	stable_baselines/td3/policies.py	/^    def __init__(self, sess, ob_space, ac_space, n_env=1, n_steps=1, n_batch=None, reuse=False, **_kwargs):$/;"	m	class:LnCnnPolicy
+__init__	stable_baselines/td3/policies.py	/^    def __init__(self, sess, ob_space, ac_space, n_env=1, n_steps=1, n_batch=None, reuse=False, **_kwargs):$/;"	m	class:LnMlpPolicy
+__init__	stable_baselines/td3/policies.py	/^    def __init__(self, sess, ob_space, ac_space, n_env=1, n_steps=1, n_batch=None, reuse=False, **_kwargs):$/;"	m	class:MlpPolicy
+__init__	stable_baselines/td3/policies.py	/^    def __init__(self, sess, ob_space, ac_space, n_env=1, n_steps=1, n_batch=None, reuse=False, layers=None,$/;"	m	class:FeedForwardPolicy
+__init__	stable_baselines/td3/policies.py	/^    def __init__(self, sess, ob_space, ac_space, n_env=1, n_steps=1, n_batch=None, reuse=False, scale=False):$/;"	m	class:TD3Policy
+__init__	stable_baselines/td3/td3.py	/^    def __init__(self, policy, env, gamma=0.99, learning_rate=3e-4, buffer_size=50000,$/;"	m	class:TD3
+__init__	stable_baselines/trpo_mpi/trpo_mpi.py	/^    def __init__(self, policy, env, gamma=0.99, timesteps_per_batch=1024, max_kl=0.01, cg_iters=10, lam=0.98,$/;"	m	class:TRPO
+__init__	tests/test_custom_policy.py	/^    def __init__(self, *args, **kwargs):$/;"	m	class:CustomCommonPolicy
+__init__	tests/test_custom_policy.py	/^    def __init__(self, *args, **kwargs):$/;"	m	class:CustomDDPGPolicy
+__init__	tests/test_custom_policy.py	/^    def __init__(self, *args, **kwargs):$/;"	m	class:CustomDQNPolicy
+__init__	tests/test_custom_policy.py	/^    def __init__(self, *args, **kwargs):$/;"	m	class:CustomSACPolicy
+__init__	tests/test_lstm_policy.py	/^    def __init__(self):$/;"	m	class:CartPoleNoVelEnv
+__init__	tests/test_lstm_policy.py	/^    def __init__(self, sess, ob_space, ac_space, n_env, n_steps, n_batch, n_lstm=128, reuse=False, **_kwargs):$/;"	m	class:CustomLSTMPolicy1
+__init__	tests/test_lstm_policy.py	/^    def __init__(self, sess, ob_space, ac_space, n_env, n_steps, n_batch, n_lstm=64, reuse=False, **_kwargs):$/;"	m	class:CustomLSTMPolicy2
+__init__	tests/test_lstm_policy.py	/^    def __init__(self, sess, ob_space, ac_space, n_env, n_steps, n_batch, n_lstm=64, reuse=False, **_kwargs):$/;"	m	class:CustomLSTMPolicy3
+__init__	tests/test_lstm_policy.py	/^    def __init__(self, sess, ob_space, ac_space, n_env, n_steps, n_batch, n_lstm=64, reuse=False, **_kwargs):$/;"	m	class:CustomLSTMPolicy4
+__init__	tests/test_save.py	/^    def __init__(self, sess, ob_space, ac_space, n_env, n_steps, n_batch, reuse=False, **_kwargs):$/;"	m	class:CustomMlpPolicy
+__init__	tests/test_vec_check_nan.py	/^    def __init__(self):$/;"	m	class:NanAndInfEnv
+__init__	tests/test_vec_envs.py	/^    def __init__(self, max_steps):$/;"	m	class:StepEnv
+__init__	tests/test_vec_envs.py	/^    def __init__(self, space):$/;"	m	class:CustomGymEnv
+__init__	tests/test_vec_envs.py	/^    def __init__(self, venv):$/;"	m	class:CustomWrapperA
+__init__	tests/test_vec_envs.py	/^    def __init__(self, venv):$/;"	m	class:CustomWrapperB
+__init__	tests/test_vec_envs.py	/^    def __init__(self, venv):$/;"	m	class:CustomWrapperBB
+__iter__	stable_baselines/gail/dataset/dataset.py	/^    def __iter__(self):$/;"	m	class:DataLoader	file:
+__len__	stable_baselines/common/atari_wrappers.py	/^    def __len__(self):$/;"	m	class:LazyFrames	file:
+__len__	stable_baselines/deepq/replay_buffer.py	/^    def __len__(self):$/;"	m	class:ReplayBuffer	file:
+__len__	stable_baselines/gail/dataset/dataset.py	/^    def __len__(self):$/;"	m	class:DataLoader	file:
+__len__	stable_baselines/her/replay_buffer.py	/^    def __len__(self):$/;"	m	class:HindsightExperienceReplayWrapper	file:
+__next__	stable_baselines/gail/dataset/dataset.py	/^    def __next__(self):$/;"	m	class:DataLoader	file:
+__repr__	stable_baselines/common/noise.py	/^    def __repr__(self):$/;"	m	class:AdaptiveParamNoiseSpec	file:
+__repr__	stable_baselines/common/noise.py	/^    def __repr__(self):$/;"	m	class:NormalActionNoise	file:
+__repr__	stable_baselines/common/noise.py	/^    def __repr__(self):$/;"	m	class:OrnsteinUhlenbeckActionNoise	file:
+__set_attr__	stable_baselines/common/base_class.py	/^    def __set_attr__(self, attr, value):$/;"	m	class:_UnvecWrapper	file:
+__set_attr__	stable_baselines/her/her.py	/^    def __set_attr__(self, attr, value):$/;"	m	class:HER	file:
+__setitem__	stable_baselines/common/segment_tree.py	/^    def __setitem__(self, idx, val):$/;"	m	class:SegmentTree	file:
+__setstate__	stable_baselines/common/vec_env/base_vec_env.py	/^    def __setstate__(self, obs):$/;"	m	class:CloudpickleWrapper	file:
+__setstate__	stable_baselines/common/vec_env/vec_normalize.py	/^    def __setstate__(self, state):$/;"	m	class:VecNormalize	file:
+__version__	stable_baselines/__init__.py	/^__version__ = "2.9.0a0"$/;"	v
+_adapt_param_noise	stable_baselines/ddpg/ddpg.py	/^    def _adapt_param_noise(self):$/;"	m	class:DDPG
+_apply_stats	stable_baselines/acktr/kfac.py	/^    def _apply_stats(self, stats_updates, accumulate=False, accumulate_coeff=0.):$/;"	m	class:KfacOptimizer
+_assert_eq	tests/test_common.py	/^def _assert_eq(left, right):$/;"	f
+_assert_neq	tests/test_common.py	/^def _assert_neq(left, right):$/;"	f
+_check_obs	stable_baselines/her/her.py	/^    def _check_obs(self, observation):$/;"	m	class:HER
+_check_val	stable_baselines/common/vec_env/vec_check_nan.py	/^    def _check_val(self, *, async_step, **kwargs):$/;"	m	class:VecCheckNan
+_choose_next_state	stable_baselines/common/identity_env.py	/^    def _choose_next_state(self):$/;"	m	class:IdentityEnv
+_choose_next_state	stable_baselines/common/identity_env.py	/^    def _choose_next_state(self):$/;"	m	class:IdentityEnvBox
+_choose_next_state	tests/test_vec_envs.py	/^    def _choose_next_state(self):$/;"	m	class:CustomGymEnv
+_cold_sgd_start	stable_baselines/acktr/kfac.py	/^        def _cold_sgd_start():$/;"	f	function:KfacOptimizer.apply_gradients
+_create_replay_wrapper	stable_baselines/her/her.py	/^    def _create_replay_wrapper(self, env):$/;"	m	class:HER
+_demo	stable_baselines/logger.py	/^def _demo():$/;"	f
+_do_log	stable_baselines/logger.py	/^    def _do_log(self, args):$/;"	m	class:Logger
+_encode_sample	stable_baselines/deepq/replay_buffer.py	/^    def _encode_sample(self, idxes):$/;"	m	class:ReplayBuffer
+_feed_input	stable_baselines/common/tf_util.py	/^    def _feed_input(cls, feed_dict, inpt, value):$/;"	m	class:_Function
+_flatten_obs	stable_baselines/common/vec_env/subproc_vec_env.py	/^def _flatten_obs(obs, space):$/;"	f
+_force	stable_baselines/common/atari_wrappers.py	/^    def _force(self):$/;"	m	class:LazyFrames
+_get_all_attributes	stable_baselines/common/vec_env/base_vec_env.py	/^    def _get_all_attributes(self):$/;"	m	class:VecEnvWrapper
+_get_indices	stable_baselines/common/vec_env/base_vec_env.py	/^    def _get_indices(self, indices):$/;"	m	class:VecEnv
+_get_latest_run_id	stable_baselines/common/base_class.py	/^    def _get_latest_run_id(self):$/;"	m	class:TensorboardWriter
+_get_ob	stable_baselines/common/atari_wrappers.py	/^    def _get_ob(self):$/;"	m	class:FrameStack
+_get_obs	stable_baselines/common/bit_flipping_env.py	/^    def _get_obs(self):$/;"	m	class:BitFlippingEnv
+_get_pretrain_placeholders	stable_baselines/a2c/a2c.py	/^    def _get_pretrain_placeholders(self):$/;"	m	class:A2C
+_get_pretrain_placeholders	stable_baselines/acer/acer_simple.py	/^    def _get_pretrain_placeholders(self):$/;"	m	class:ACER
+_get_pretrain_placeholders	stable_baselines/acktr/acktr.py	/^    def _get_pretrain_placeholders(self):$/;"	m	class:ACKTR
+_get_pretrain_placeholders	stable_baselines/common/base_class.py	/^    def _get_pretrain_placeholders(self):$/;"	m	class:BaseRLModel
+_get_pretrain_placeholders	stable_baselines/ddpg/ddpg.py	/^    def _get_pretrain_placeholders(self):$/;"	m	class:DDPG
+_get_pretrain_placeholders	stable_baselines/deepq/dqn.py	/^    def _get_pretrain_placeholders(self):$/;"	m	class:DQN
+_get_pretrain_placeholders	stable_baselines/her/her.py	/^    def _get_pretrain_placeholders(self):$/;"	m	class:HER
+_get_pretrain_placeholders	stable_baselines/ppo1/pposgd_simple.py	/^    def _get_pretrain_placeholders(self):$/;"	m	class:PPO1
+_get_pretrain_placeholders	stable_baselines/ppo2/ppo2.py	/^    def _get_pretrain_placeholders(self):$/;"	m	class:PPO2
+_get_pretrain_placeholders	stable_baselines/sac/sac.py	/^    def _get_pretrain_placeholders(self):$/;"	m	class:SAC
+_get_pretrain_placeholders	stable_baselines/td3/td3.py	/^    def _get_pretrain_placeholders(self):$/;"	m	class:TD3
+_get_pretrain_placeholders	stable_baselines/trpo_mpi/trpo_mpi.py	/^    def _get_pretrain_placeholders(self):$/;"	m	class:TRPO
+_get_reward	stable_baselines/common/identity_env.py	/^    def _get_reward(self, action):$/;"	m	class:IdentityEnv
+_get_reward	stable_baselines/common/identity_env.py	/^    def _get_reward(self, action):$/;"	m	class:IdentityEnvBox
+_get_stats	stable_baselines/ddpg/ddpg.py	/^    def _get_stats(self):$/;"	m	class:DDPG
+_get_target_envs	stable_baselines/common/vec_env/dummy_vec_env.py	/^    def _get_target_envs(self, indices):$/;"	m	class:DummyVecEnv
+_get_target_remotes	stable_baselines/common/vec_env/subproc_vec_env.py	/^    def _get_target_remotes(self, indices):$/;"	m	class:SubprocVecEnv
+_getter	stable_baselines/common/tf_util.py	/^    def _getter(getter, name, *args, **kwargs):$/;"	f	function:outer_scope_getter
+_helper_runningmeanstd	stable_baselines/common/mpi_moments.py	/^def _helper_runningmeanstd():$/;"	f
+_init_num_timesteps	stable_baselines/common/base_class.py	/^    def _init_num_timesteps(self, reset_num_timesteps=True):$/;"	m	class:BaseRLModel
+_initialize	stable_baselines/ddpg/ddpg.py	/^    def _initialize(self, sess):$/;"	m	class:DDPG
+_is_vectorized_observation	stable_baselines/common/base_class.py	/^    def _is_vectorized_observation(observation, observation_space):$/;"	m	class:BaseRLModel
+_kwargs_check	stable_baselines/common/policies.py	/^    def _kwargs_check(feature_extraction, kwargs):$/;"	m	class:BasePolicy
+_ln	stable_baselines/a2c/utils.py	/^def _ln(input_tensor, gain, bias, epsilon=1e-5, axes=None):$/;"	f
+_load_from_file	stable_baselines/common/base_class.py	/^    def _load_from_file(load_path, load_data=True, custom_objects=None):$/;"	m	class:BaseRLModel
+_load_from_file_cloudpickle	stable_baselines/common/base_class.py	/^    def _load_from_file_cloudpickle(load_path):$/;"	m	class:BaseRLModel
+_make_batch_element	stable_baselines/gail/dataset/dataset.py	/^    def _make_batch_element(cls, image_path):$/;"	m	class:DataLoader
+_maybe_disable_mpi	tests/test_common.py	/^def _maybe_disable_mpi(mpi_disabled):$/;"	f
+_minibatch_indices	stable_baselines/gail/dataset/dataset.py	/^    def _minibatch_indices(self):$/;"	m	class:DataLoader
+_normalize_observation	stable_baselines/common/vec_env/vec_normalize.py	/^    def _normalize_observation(self, obs):$/;"	m	class:VecNormalize
+_obs_from_buf	stable_baselines/common/vec_env/dummy_vec_env.py	/^    def _obs_from_buf(self):$/;"	m	class:DummyVecEnv
+_ortho_init	stable_baselines/a2c/utils.py	/^    def _ortho_init(shape, *_, **_kwargs):$/;"	f	function:ortho_init
+_policy	stable_baselines/ddpg/ddpg.py	/^    def _policy(self, obs, apply_noise=True, compute_q=True):$/;"	m	class:DDPG
+_policy_registry	stable_baselines/common/policies.py	/^_policy_registry = {$/;"	v
+_pos_obs	tests/test_lstm_policy.py	/^    def _pos_obs(full_obs):$/;"	m	class:CartPoleNoVelEnv
+_reduce_helper	stable_baselines/common/segment_tree.py	/^    def _reduce_helper(self, start, end, node, node_start, node_end):$/;"	m	class:SegmentTree
+_reset	stable_baselines/ddpg/ddpg.py	/^    def _reset(self):$/;"	m	class:DDPG
+_run	stable_baselines/gail/dataset/dataset.py	/^    def _run(self):$/;"	m	class:DataLoader
+_sample_achieved_goal	stable_baselines/her/replay_buffer.py	/^    def _sample_achieved_goal(self, episode_transitions, transition_idx):$/;"	m	class:HindsightExperienceReplayWrapper
+_sample_achieved_goals	stable_baselines/her/replay_buffer.py	/^    def _sample_achieved_goals(self, episode_transitions, transition_idx):$/;"	m	class:HindsightExperienceReplayWrapper
+_sample_proportional	stable_baselines/deepq/replay_buffer.py	/^    def _sample_proportional(self, batch_size):$/;"	m	class:PrioritizedReplayBuffer
+_save_obs	stable_baselines/common/vec_env/dummy_vec_env.py	/^    def _save_obs(self, env_idx, obs):$/;"	m	class:DummyVecEnv
+_save_to_file	stable_baselines/common/base_class.py	/^    def _save_to_file(save_path, data=None, params=None, cloudpickle=False):$/;"	m	class:BaseRLModel
+_save_to_file	stable_baselines/her/her.py	/^    def _save_to_file(self, save_path, data=None, params=None, cloudpickle=False):$/;"	m	class:HER
+_save_to_file_cloudpickle	stable_baselines/common/base_class.py	/^    def _save_to_file_cloudpickle(save_path, data=None, params=None):$/;"	m	class:BaseRLModel
+_save_to_file_zip	stable_baselines/common/base_class.py	/^    def _save_to_file_zip(save_path, data=None, params=None):$/;"	m	class:BaseRLModel
+_search_factors	stable_baselines/acktr/kfac.py	/^        def _search_factors(gradient, graph):$/;"	f	function:KfacOptimizer.get_factors
+_setup_actor_optimizer	stable_baselines/ddpg/ddpg.py	/^    def _setup_actor_optimizer(self):$/;"	m	class:DDPG
+_setup_critic_optimizer	stable_baselines/ddpg/ddpg.py	/^    def _setup_critic_optimizer(self):$/;"	m	class:DDPG
+_setup_init	stable_baselines/common/policies.py	/^    def _setup_init(self):$/;"	m	class:ActorCriticPolicy
+_setup_init	stable_baselines/deepq/policies.py	/^    def _setup_init(self):$/;"	m	class:DQNPolicy
+_setup_learn	stable_baselines/common/base_class.py	/^    def _setup_learn(self):$/;"	m	class:BaseRLModel
+_setup_load_operations	stable_baselines/common/base_class.py	/^    def _setup_load_operations(self):$/;"	m	class:BaseRLModel
+_setup_param_noise	stable_baselines/ddpg/ddpg.py	/^    def _setup_param_noise(self, normalized_obs):$/;"	m	class:DDPG
+_setup_popart	stable_baselines/ddpg/ddpg.py	/^    def _setup_popart(self):$/;"	m	class:DDPG
+_setup_stats	stable_baselines/ddpg/ddpg.py	/^    def _setup_stats(self):$/;"	m	class:DDPG
+_setup_target_network_updates	stable_baselines/ddpg/ddpg.py	/^    def _setup_target_network_updates(self):$/;"	m	class:DDPG
+_softmax	stable_baselines/common/base_class.py	/^    def _softmax(x_input):$/;"	m	class:BaseRLModel
+_store_episode	stable_baselines/her/replay_buffer.py	/^    def _store_episode(self):$/;"	m	class:HindsightExperienceReplayWrapper
+_store_transition	stable_baselines/ddpg/ddpg.py	/^    def _store_transition(self, obs, action, reward, next_obs, done):$/;"	m	class:DDPG
+_thunk	stable_baselines/common/cmd_util.py	/^        def _thunk():$/;"	f	function:make_atari_env.make_env
+_train_step	stable_baselines/a2c/a2c.py	/^    def _train_step(self, obs, states, rewards, masks, actions, values, update, writer=None):$/;"	m	class:A2C
+_train_step	stable_baselines/acer/acer_simple.py	/^    def _train_step(self, obs, actions, rewards, dones, mus, states, masks, steps, writer=None):$/;"	m	class:ACER
+_train_step	stable_baselines/acktr/acktr.py	/^    def _train_step(self, obs, states, rewards, masks, actions, values, update, writer):$/;"	m	class:ACKTR
+_train_step	stable_baselines/ddpg/ddpg.py	/^    def _train_step(self, step, writer, log=False):$/;"	m	class:DDPG
+_train_step	stable_baselines/ppo2/ppo2.py	/^    def _train_step(self, learning_rate, cliprange, obs, returns, masks, actions, values, neglogpacs, update,$/;"	m	class:PPO2
+_train_step	stable_baselines/sac/sac.py	/^    def _train_step(self, step, writer, learning_rate):$/;"	m	class:SAC
+_train_step	stable_baselines/td3/td3.py	/^    def _train_step(self, step, writer, learning_rate, update_policy):$/;"	m	class:TD3
+_truncate	stable_baselines/logger.py	/^    def _truncate(cls, string):$/;"	m	class:HumanOutputFormat
+_update_accum_stats	stable_baselines/acktr/kfac.py	/^        def _update_accum_stats():$/;"	f	function:KfacOptimizer.apply_stats
+_update_running_avg_stats	stable_baselines/acktr/kfac.py	/^        def _update_running_avg_stats(stats_updates):$/;"	f	function:KfacOptimizer.apply_stats
+_update_target_net	stable_baselines/ddpg/ddpg.py	/^    def _update_target_net(self):$/;"	m	class:DDPG
+_video_enabled	stable_baselines/common/vec_env/vec_video_recorder.py	/^    def _video_enabled(self):$/;"	m	class:VecVideoRecorder
+_warm_kfac_start	stable_baselines/acktr/kfac.py	/^        def _warm_kfac_start():$/;"	f	function:KfacOptimizer.apply_gradients
+_worker	stable_baselines/common/vec_env/subproc_vec_env.py	/^def _worker(remote, parent_remote, env_fn_wrapper):$/;"	f
+absolute_scope_name	stable_baselines/deepq/build_graph.py	/^def absolute_scope_name(relative_scope_name):$/;"	f
+act	stable_baselines/deepq/build_graph.py	/^    def act(obs, reset=None, update_param_noise_threshold=None, update_param_noise_scale=None, stochastic=True,$/;"	f	function:build_act_with_param_noise
+act	stable_baselines/deepq/build_graph.py	/^    def act(obs, stochastic=True, update_eps=-1):$/;"	f	function:build_act
+action	stable_baselines/common/policies.py	/^    def action(self):$/;"	m	class:ActorCriticPolicy
+action_ph	stable_baselines/common/policies.py	/^    def action_ph(self):$/;"	m	class:BasePolicy
+action_probability	stable_baselines/common/base_class.py	/^    def action_probability(self, observation, state=None, mask=None, actions=None, logp=False):$/;"	m	class:ActorCriticRLModel
+action_probability	stable_baselines/common/base_class.py	/^    def action_probability(self, observation, state=None, mask=None, actions=None, logp=False):$/;"	m	class:BaseRLModel
+action_probability	stable_baselines/common/base_class.py	/^    def action_probability(self, observation, state=None, mask=None, actions=None, logp=False):$/;"	m	class:OffPolicyRLModel
+action_probability	stable_baselines/ddpg/ddpg.py	/^    def action_probability(self, observation, state=None, mask=None, actions=None, logp=False):$/;"	m	class:DDPG
+action_probability	stable_baselines/deepq/dqn.py	/^    def action_probability(self, observation, state=None, mask=None, actions=None, logp=False):$/;"	m	class:DQN
+action_probability	stable_baselines/her/her.py	/^    def action_probability(self, observation, state=None, mask=None, actions=None, logp=False):$/;"	m	class:HER
+action_probability	stable_baselines/sac/sac.py	/^    def action_probability(self, observation, state=None, mask=None, actions=None, logp=False):$/;"	m	class:SAC
+action_probability	stable_baselines/td3/td3.py	/^    def action_probability(self, observation, state=None, mask=None, actions=None, logp=False):$/;"	m	class:TD3
+adapt	stable_baselines/common/noise.py	/^    def adapt(self, distance):$/;"	m	class:AdaptiveParamNoiseSpec
+add	stable_baselines/deepq/replay_buffer.py	/^    def add(self, obs_t, action, reward, obs_tp1, done):$/;"	m	class:PrioritizedReplayBuffer
+add	stable_baselines/deepq/replay_buffer.py	/^    def add(self, obs_t, action, reward, obs_tp1, done):$/;"	m	class:ReplayBuffer
+add	stable_baselines/her/replay_buffer.py	/^    def add(self, obs_t, action, reward, obs_tp1, done):$/;"	m	class:HindsightExperienceReplayWrapper
+add_vtarg_and_adv	stable_baselines/trpo_mpi/utils.py	/^def add_vtarg_and_adv(seg, gamma, lam):$/;"	f
+allmean	stable_baselines/trpo_mpi/trpo_mpi.py	/^                    def allmean(arr):$/;"	f	function:TRPO.setup_model
+apply_gradients	stable_baselines/acktr/kfac.py	/^    def apply_gradients(self, grads):$/;"	m	class:KfacOptimizer
+apply_gradients_kfac	stable_baselines/acktr/kfac.py	/^    def apply_gradients_kfac(self, grads):$/;"	m	class:KfacOptimizer
+apply_squashing_func	stable_baselines/sac/policies.py	/^def apply_squashing_func(mu_, pi_, logp_pi):$/;"	f
+apply_stats	stable_baselines/acktr/kfac.py	/^    def apply_stats(self, stats_updates):$/;"	m	class:KfacOptimizer
+apply_stats_eigen	stable_baselines/acktr/kfac.py	/^    def apply_stats_eigen(self, eigen_list):$/;"	m	class:KfacOptimizer
+arg_parser	stable_baselines/common/cmd_util.py	/^def arg_parser():$/;"	f
+args	stable_baselines/ddpg/main.py	/^    args = parse_args()$/;"	v
+args	stable_baselines/deepq/experiments/custom_cartpole.py	/^    args = parser.parse_args()$/;"	v
+args	stable_baselines/deepq/experiments/enjoy_cartpole.py	/^    args = parser.parse_args()$/;"	v
+args	stable_baselines/deepq/experiments/enjoy_mountaincar.py	/^    args = parser.parse_args()$/;"	v
+args	stable_baselines/deepq/experiments/train_cartpole.py	/^    args = parser.parse_args()$/;"	v
+args	stable_baselines/deepq/experiments/train_mountaincar.py	/^    args = parser.parse_args()$/;"	v
+args	tests/test_deepq.py	/^args = DummyObject()$/;"	v
+as_scalar	stable_baselines/ddpg/ddpg.py	/^                    def as_scalar(scalar):$/;"	f	function:DDPG.learn
+atari_arg_parser	stable_baselines/common/cmd_util.py	/^def atari_arg_parser():$/;"	f
+author	docs/conf.py	/^author = 'Stable Baselines Contributors'$/;"	v
+author	setup.py	/^      author='Ashley Hill',$/;"	v
+author_email	setup.py	/^      author_email='ashley.hill@u-psud.fr',$/;"	v
+avg_norm	stable_baselines/a2c/utils.py	/^def avg_norm(tensor):$/;"	f
+batch_to_seq	stable_baselines/a2c/utils.py	/^def batch_to_seq(tensor_batch, n_batch, n_steps, flat=False):$/;"	f
+blue	stable_baselines/common/console_util.py	/^    blue=34,$/;"	v
+boolean_flag	stable_baselines/common/misc_util.py	/^def boolean_flag(parser, name, default=False, help_msg=None):$/;"	f
+buffer_size	stable_baselines/deepq/replay_buffer.py	/^    def buffer_size(self):$/;"	m	class:ReplayBuffer
+build_act	stable_baselines/deepq/build_graph.py	/^def build_act(q_func, ob_space, ac_space, stochastic_ph, update_eps_ph, sess):$/;"	f
+build_act_with_param_noise	stable_baselines/deepq/build_graph.py	/^def build_act_with_param_noise(q_func, ob_space, ac_space, stochastic_ph, update_eps_ph, sess,$/;"	f
+build_graph	stable_baselines/gail/adversary.py	/^    def build_graph(self, obs_ph, acs_ph, reuse=False):$/;"	m	class:TransitionClassifier
+build_train	stable_baselines/deepq/build_graph.py	/^def build_train(q_func, ob_space, ac_space, optimizer, sess, grad_norm_clipping=None,$/;"	f
+bytes_to_params	stable_baselines/common/save_util.py	/^def bytes_to_params(serialized_params, param_list):$/;"	f
+calc_entropy	stable_baselines/a2c/utils.py	/^def calc_entropy(logits):$/;"	f
+calc_entropy_softmax	stable_baselines/a2c/utils.py	/^def calc_entropy_softmax(action_proba):$/;"	f
+callback	stable_baselines/deepq/experiments/train_cartpole.py	/^def callback(lcl, _glb):$/;"	f
+can_sample	stable_baselines/acer/buffer.py	/^    def can_sample(self):$/;"	m	class:Buffer
+can_sample	stable_baselines/deepq/replay_buffer.py	/^    def can_sample(self, n_samples):$/;"	m	class:ReplayBuffer
+can_sample	stable_baselines/her/replay_buffer.py	/^    def can_sample(self, n_samples):$/;"	m	class:HindsightExperienceReplayWrapper
+check_rms_equal	tests/test_vec_normalize.py	/^def check_rms_equal(rmsa, rmsb):$/;"	f
+check_shape	stable_baselines/a2c/utils.py	/^def check_shape(tensors, shapes):$/;"	f
+check_synced	stable_baselines/common/mpi_adam.py	/^    def check_synced(self):$/;"	m	class:MpiAdam
+check_vec_norm_equal	tests/test_vec_normalize.py	/^def check_vec_norm_equal(norma, normb):$/;"	f
+check_vecenv_obs	tests/test_vec_envs.py	/^def check_vecenv_obs(obs, space):$/;"	f
+check_vecenv_spaces	tests/test_vec_envs.py	/^def check_vecenv_spaces(vec_env_class, space, obs_assert):$/;"	f
+checkallclose	stable_baselines/common/mpi_running_mean_std.py	/^    def checkallclose(var_1, var_2):$/;"	f	function:test_dist
+clip_but_pass_gradient	stable_baselines/sac/policies.py	/^def clip_but_pass_gradient(input_, lower=-1., upper=1.):$/;"	f
+clipout_neg	stable_baselines/acktr/kfac_utils.py	/^def clipout_neg(vec, threshold=1e-6):$/;"	f
+close	stable_baselines/bench/monitor.py	/^    def close(self):$/;"	m	class:Monitor
+close	stable_baselines/common/bit_flipping_env.py	/^    def close(self):$/;"	m	class:BitFlippingEnv
+close	stable_baselines/common/vec_env/base_vec_env.py	/^    def close(self):$/;"	m	class:VecEnv
+close	stable_baselines/common/vec_env/base_vec_env.py	/^    def close(self):$/;"	m	class:VecEnvWrapper
+close	stable_baselines/common/vec_env/dummy_vec_env.py	/^    def close(self):$/;"	m	class:DummyVecEnv
+close	stable_baselines/common/vec_env/subproc_vec_env.py	/^    def close(self):$/;"	m	class:SubprocVecEnv
+close	stable_baselines/common/vec_env/vec_frame_stack.py	/^    def close(self):$/;"	m	class:VecFrameStack
+close	stable_baselines/common/vec_env/vec_video_recorder.py	/^    def close(self):$/;"	m	class:VecVideoRecorder
+close	stable_baselines/her/utils.py	/^    def close(self):$/;"	m	class:HERGoalEnvWrapper
+close	stable_baselines/logger.py	/^    def close(self):$/;"	m	class:CSVOutputFormat
+close	stable_baselines/logger.py	/^    def close(self):$/;"	m	class:HumanOutputFormat
+close	stable_baselines/logger.py	/^    def close(self):$/;"	m	class:JSONOutputFormat
+close	stable_baselines/logger.py	/^    def close(self):$/;"	m	class:Logger
+close	stable_baselines/logger.py	/^    def close(self):$/;"	m	class:TensorBoardOutputFormat
+close_video_recorder	stable_baselines/common/vec_env/vec_video_recorder.py	/^    def close_video_recorder(self):$/;"	m	class:VecVideoRecorder
+colorize	stable_baselines/common/console_util.py	/^def colorize(string, color, bold=False, highlight=False):$/;"	f
+compute_and_apply_stats	stable_baselines/acktr/kfac.py	/^    def compute_and_apply_stats(self, loss_sampled, var_list=None):$/;"	m	class:KfacOptimizer
+compute_gradients	stable_baselines/acktr/kfac.py	/^    def compute_gradients(cls, loss, var_list=None):$/;"	m	class:KfacOptimizer
+compute_reward	stable_baselines/common/base_class.py	/^    def compute_reward(self, achieved_goal, desired_goal, _info):$/;"	m	class:_UnvecWrapper
+compute_reward	stable_baselines/common/bit_flipping_env.py	/^    def compute_reward(self,$/;"	m	class:BitFlippingEnv
+compute_reward	stable_baselines/her/utils.py	/^    def compute_reward(self, achieved_goal, desired_goal, info):$/;"	m	class:HERGoalEnvWrapper
+compute_stats	stable_baselines/acktr/kfac.py	/^    def compute_stats(self, loss_sampled, var_list=None):$/;"	m	class:KfacOptimizer
+compute_stats_eigen	stable_baselines/acktr/kfac.py	/^    def compute_stats_eigen(self):$/;"	m	class:KfacOptimizer
+configure	stable_baselines/logger.py	/^def configure(folder=None, format_strs=None):$/;"	f
+conjugate_gradient	stable_baselines/common/cg.py	/^def conjugate_gradient(f_ax, b_vec, cg_iters=10, callback=None, verbose=False, residual_tol=1e-10):$/;"	f
+constant	stable_baselines/a2c/utils.py	/^def constant(_):$/;"	f
+constfn	stable_baselines/ppo2/ppo2.py	/^def constfn(val):$/;"	f
+conv	stable_baselines/a2c/utils.py	/^def conv(input_tensor, scope, *, n_filters, filter_size, stride,$/;"	f
+conv_to_fc	stable_baselines/a2c/utils.py	/^def conv_to_fc(input_tensor):$/;"	f
+convert_dict_to_obs	stable_baselines/her/utils.py	/^    def convert_dict_to_obs(self, obs_dict):$/;"	m	class:HERGoalEnvWrapper
+convert_if_needed	stable_baselines/common/bit_flipping_env.py	/^    def convert_if_needed(self, state):$/;"	m	class:BitFlippingEnv
+convert_obs_to_dict	stable_baselines/her/utils.py	/^    def convert_obs_to_dict(self, observations):$/;"	m	class:HERGoalEnvWrapper
+copy_obs_dict	stable_baselines/common/vec_env/util.py	/^def copy_obs_dict(obs):$/;"	f
+copyright	docs/conf.py	/^copyright = '2018-2019, Stable Baselines'$/;"	v
+crimson	stable_baselines/common/console_util.py	/^    crimson=38$/;"	v
+custom_getter	stable_baselines/acer/acer_simple.py	/^                    def custom_getter(getter, name, *args, **kwargs):$/;"	f	function:ACER.setup_model
+custom_method	tests/test_vec_envs.py	/^    def custom_method(dim_0=1, dim_1=1):$/;"	m	class:CustomGymEnv
+cyan	stable_baselines/common/console_util.py	/^    cyan=36,$/;"	v
+data_to_json	stable_baselines/common/save_util.py	/^def data_to_json(data):$/;"	f
+debug	stable_baselines/logger.py	/^def debug(*args):$/;"	f
+decode	stable_baselines/acer/buffer.py	/^    def decode(self, enc_obs):$/;"	m	class:Buffer
+decorator_with_name	stable_baselines/logger.py	/^    def decorator_with_name(func):$/;"	f	function:profile
+default_param_noise_filter	stable_baselines/deepq/build_graph.py	/^def default_param_noise_filter(var):$/;"	f
+denormalize	stable_baselines/ddpg/ddpg.py	/^def denormalize(tensor, stats):$/;"	f
+dequeue_op	stable_baselines/acktr/kfac.py	/^            def dequeue_op():$/;"	f	function:KfacOptimizer.apply_gradients_kfac
+dequeue_stats_op	stable_baselines/acktr/kfac.py	/^            def dequeue_stats_op():$/;"	f	function:KfacOptimizer.apply_stats._update_running_avg_stats
+description	setup.py	/^      description='A fork of OpenAI Baselines, implementations of reinforcement learning algorithms.',$/;"	v
+detect_min_val	stable_baselines/acktr/kfac_utils.py	/^def detect_min_val(input_mat, var, threshold=1e-6, name='', debug=False):$/;"	f
+deterministic_action	stable_baselines/common/policies.py	/^    def deterministic_action(self):$/;"	m	class:ActorCriticPolicy
+dict_to_obs	stable_baselines/common/vec_env/util.py	/^def dict_to_obs(space, obs_dict):$/;"	f
+discount	stable_baselines/common/math_util.py	/^def discount(vector, gamma):$/;"	f
+discount_with_boundaries	stable_baselines/common/math_util.py	/^def discount_with_boundaries(rewards, episode_starts, gamma):$/;"	f
+discount_with_dones	stable_baselines/a2c/utils.py	/^def discount_with_dones(rewards, dones, gamma):$/;"	f
+dones_ph	stable_baselines/common/policies.py	/^    def dones_ph(self):$/;"	m	class:RecurrentActorCriticPolicy
+double_linear_con	stable_baselines/a2c/utils.py	/^def double_linear_con(progress):$/;"	f
+double_middle_drop	stable_baselines/a2c/utils.py	/^def double_middle_drop(progress):$/;"	f
+dummy_expert	tests/test_gail.py	/^    def dummy_expert(_obs):$/;"	f	function:test_generate_callable
+dump_tabular	stable_baselines/logger.py	/^dump_tabular = dumpkvs$/;"	v
+dumpkvs	stable_baselines/logger.py	/^    def dumpkvs(self):$/;"	m	class:Logger
+dumpkvs	stable_baselines/logger.py	/^def dumpkvs():$/;"	f
+end	docs/make.bat	/^:end$/;"	l
+entropy	stable_baselines/common/distributions.py	/^    def entropy(self):$/;"	m	class:BernoulliProbabilityDistribution
+entropy	stable_baselines/common/distributions.py	/^    def entropy(self):$/;"	m	class:CategoricalProbabilityDistribution
+entropy	stable_baselines/common/distributions.py	/^    def entropy(self):$/;"	m	class:DiagGaussianProbabilityDistribution
+entropy	stable_baselines/common/distributions.py	/^    def entropy(self):$/;"	m	class:MultiCategoricalProbabilityDistribution
+entropy	stable_baselines/common/distributions.py	/^    def entropy(self):$/;"	m	class:ProbabilityDistribution
+env_method	stable_baselines/common/vec_env/base_vec_env.py	/^    def env_method(self, method_name, *method_args, indices=None, **method_kwargs):$/;"	m	class:VecEnv
+env_method	stable_baselines/common/vec_env/base_vec_env.py	/^    def env_method(self, method_name, *method_args, indices=None, **method_kwargs):$/;"	m	class:VecEnvWrapper
+env_method	stable_baselines/common/vec_env/dummy_vec_env.py	/^    def env_method(self, method_name, *method_args, indices=None, **method_kwargs):$/;"	m	class:DummyVecEnv
+env_method	stable_baselines/common/vec_env/subproc_vec_env.py	/^    def env_method(self, method_name, *method_args, indices=None, **method_kwargs):$/;"	m	class:SubprocVecEnv
+error	stable_baselines/logger.py	/^def error(*args):$/;"	f
+exclude_patterns	docs/conf.py	/^exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']$/;"	v
+explained_variance	stable_baselines/common/math_util.py	/^def explained_variance(y_pred, y_true):$/;"	f
+explained_variance_2d	stable_baselines/common/math_util.py	/^def explained_variance_2d(y_pred, y_true):$/;"	f
+extensions	docs/conf.py	/^extensions = [$/;"	v
+extras_require	setup.py	/^      extras_require={$/;"	v
+factor_reshape	stable_baselines/acktr/kfac_utils.py	/^def factor_reshape(eigen_vectors, eigen_values, grad, fac_idx=0, f_type='act'):$/;"	f
+feed	stable_baselines/a2c/utils.py	/^    def feed(self, rewards, masks):$/;"	m	class:EpisodeStats
+file_handler	stable_baselines/bench/monitor.py	/^    file_handler = None$/;"	v	class:Monitor
+find_prefixsum_idx	stable_baselines/common/segment_tree.py	/^    def find_prefixsum_idx(self, prefixsum):$/;"	m	class:SumSegmentTree
+fisher_vector_product	stable_baselines/trpo_mpi/trpo_mpi.py	/^                    def fisher_vector_product(vec):$/;"	f	function:TRPO.learn
+flatgrad	stable_baselines/common/tf_util.py	/^def flatgrad(loss, var_list, clip_norm=None):$/;"	f
+flatparam	stable_baselines/common/distributions.py	/^    def flatparam(self):$/;"	m	class:BernoulliProbabilityDistribution
+flatparam	stable_baselines/common/distributions.py	/^    def flatparam(self):$/;"	m	class:CategoricalProbabilityDistribution
+flatparam	stable_baselines/common/distributions.py	/^    def flatparam(self):$/;"	m	class:DiagGaussianProbabilityDistribution
+flatparam	stable_baselines/common/distributions.py	/^    def flatparam(self):$/;"	m	class:MultiCategoricalProbabilityDistribution
+flatparam	stable_baselines/common/distributions.py	/^    def flatparam(self):$/;"	m	class:ProbabilityDistribution
+flatten_arrays	stable_baselines/common/math_util.py	/^def flatten_arrays(arrs):$/;"	f
+flatten_lists	stable_baselines/trpo_mpi/utils.py	/^def flatten_lists(listoflists):$/;"	f
+fmt_item	stable_baselines/common/console_util.py	/^def fmt_item(item, min_width):$/;"	f
+fmt_row	stable_baselines/common/console_util.py	/^def fmt_row(width, row, header=False):$/;"	f
+fromflat	stable_baselines/common/distributions.py	/^    def fromflat(cls, flat):$/;"	m	class:BernoulliProbabilityDistribution
+fromflat	stable_baselines/common/distributions.py	/^    def fromflat(cls, flat):$/;"	m	class:CategoricalProbabilityDistribution
+fromflat	stable_baselines/common/distributions.py	/^    def fromflat(cls, flat):$/;"	m	class:DiagGaussianProbabilityDistribution
+fromflat	stable_baselines/common/distributions.py	/^    def fromflat(cls, flat):$/;"	m	class:MultiCategoricalProbabilityDistribution
+func	stable_baselines/ppo2/ppo2.py	/^    def func(_):$/;"	f	function:constfn
+func_b	tests/test_vec_envs.py	/^    def func_b(self):$/;"	m	class:CustomWrapperB
+func_wrapper	stable_baselines/logger.py	/^        def func_wrapper(*args, **kwargs):$/;"	f	function:profile.decorator_with_name
+function	stable_baselines/common/tf_util.py	/^def function(inputs, outputs, updates=None, givens=None):$/;"	f
+gaussian_entropy	stable_baselines/sac/policies.py	/^def gaussian_entropy(log_std):$/;"	f
+gaussian_likelihood	stable_baselines/sac/policies.py	/^def gaussian_likelihood(input_, mu_, log_std):$/;"	f
+generate_expert_traj	stable_baselines/gail/dataset/record_expert.py	/^def generate_expert_traj(model, save_path=None, env=None, n_timesteps=0,$/;"	f
+get	stable_baselines/acer/buffer.py	/^    def get(self):$/;"	m	class:Buffer
+get_attr	stable_baselines/common/vec_env/base_vec_env.py	/^    def get_attr(self, attr_name, indices=None):$/;"	m	class:VecEnv
+get_attr	stable_baselines/common/vec_env/base_vec_env.py	/^    def get_attr(self, attr_name, indices=None):$/;"	m	class:VecEnvWrapper
+get_attr	stable_baselines/common/vec_env/dummy_vec_env.py	/^    def get_attr(self, attr_name, indices=None):$/;"	m	class:DummyVecEnv
+get_attr	stable_baselines/common/vec_env/subproc_vec_env.py	/^    def get_attr(self, attr_name, indices=None):$/;"	m	class:SubprocVecEnv
+get_by_index	stable_baselines/a2c/utils.py	/^def get_by_index(input_tensor, idx):$/;"	f
+get_dir	stable_baselines/logger.py	/^    def get_dir(self):$/;"	m	class:Logger
+get_dir	stable_baselines/logger.py	/^def get_dir():$/;"	f
+get_env	stable_baselines/common/base_class.py	/^    def get_env(self):$/;"	m	class:BaseRLModel
+get_env	stable_baselines/her/her.py	/^    def get_env(self):$/;"	m	class:HER
+get_episode_lengths	stable_baselines/bench/monitor.py	/^    def get_episode_lengths(self):$/;"	m	class:Monitor
+get_episode_rewards	stable_baselines/bench/monitor.py	/^    def get_episode_rewards(self):$/;"	m	class:Monitor
+get_episode_times	stable_baselines/bench/monitor.py	/^    def get_episode_times(self):$/;"	m	class:Monitor
+get_factors	stable_baselines/acktr/kfac.py	/^    def get_factors(self, gradients, varlist):$/;"	m	class:KfacOptimizer
+get_globals_vars	stable_baselines/common/tf_util.py	/^def get_globals_vars(name):$/;"	f
+get_images	stable_baselines/common/vec_env/base_vec_env.py	/^    def get_images(self):$/;"	m	class:VecEnv
+get_images	stable_baselines/common/vec_env/base_vec_env.py	/^    def get_images(self):$/;"	m	class:VecEnvWrapper
+get_images	stable_baselines/common/vec_env/dummy_vec_env.py	/^    def get_images(self):$/;"	m	class:DummyVecEnv
+get_images	stable_baselines/common/vec_env/subproc_vec_env.py	/^    def get_images(self):$/;"	m	class:SubprocVecEnv
+get_kfac_grad_op	stable_baselines/acktr/kfac.py	/^                    def get_kfac_grad_op():$/;"	f	function:KfacOptimizer.apply_gradients_kfac.dequeue_op.no_op_wrapper
+get_kfac_precond_updates	stable_baselines/acktr/kfac.py	/^    def get_kfac_precond_updates(self, gradlist, varlist):$/;"	m	class:KfacOptimizer
+get_level	stable_baselines/logger.py	/^def get_level():$/;"	f
+get_monitor_files	stable_baselines/bench/monitor.py	/^def get_monitor_files(path):$/;"	f
+get_next_batch	stable_baselines/gail/dataset/dataset.py	/^    def get_next_batch(self, split=None):$/;"	m	class:ExpertDataset
+get_original_obs	stable_baselines/common/vec_env/vec_normalize.py	/^    def get_original_obs(self):$/;"	m	class:VecNormalize
+get_parameter_list	stable_baselines/common/base_class.py	/^    def get_parameter_list(self):$/;"	m	class:ActorCriticRLModel
+get_parameter_list	stable_baselines/common/base_class.py	/^    def get_parameter_list(self):$/;"	m	class:BaseRLModel
+get_parameter_list	stable_baselines/ddpg/ddpg.py	/^    def get_parameter_list(self):$/;"	m	class:DDPG
+get_parameter_list	stable_baselines/deepq/dqn.py	/^    def get_parameter_list(self):$/;"	m	class:DQN
+get_parameter_list	stable_baselines/her/her.py	/^    def get_parameter_list(self):$/;"	m	class:HER
+get_parameter_list	stable_baselines/sac/sac.py	/^    def get_parameter_list(self):$/;"	m	class:SAC
+get_parameter_list	stable_baselines/td3/td3.py	/^    def get_parameter_list(self):$/;"	m	class:TD3
+get_parameters	stable_baselines/common/base_class.py	/^    def get_parameters(self):$/;"	m	class:BaseRLModel
+get_perturbable_vars	stable_baselines/ddpg/ddpg.py	/^def get_perturbable_vars(scope):$/;"	f
+get_perturbed_actor_updates	stable_baselines/ddpg/ddpg.py	/^def get_perturbed_actor_updates(actor, perturbed_actor, param_noise_stddev, verbose=0):$/;"	f
+get_policy_from_name	stable_baselines/common/policies.py	/^def get_policy_from_name(base_policy_type, name):$/;"	f
+get_reward	stable_baselines/gail/adversary.py	/^    def get_reward(self, obs, actions):$/;"	m	class:TransitionClassifier
+get_schedule_fn	stable_baselines/ppo2/ppo2.py	/^def get_schedule_fn(value_schedule):$/;"	f
+get_stats	stable_baselines/acktr/kfac.py	/^    def get_stats(self, factors, varlist):$/;"	m	class:KfacOptimizer
+get_stats	stable_baselines/common/noise.py	/^    def get_stats(self):$/;"	m	class:AdaptiveParamNoiseSpec
+get_stats_eigen	stable_baselines/acktr/kfac.py	/^    def get_stats_eigen(self, stats=None):$/;"	m	class:KfacOptimizer
+get_target_updates	stable_baselines/ddpg/ddpg.py	/^def get_target_updates(_vars, target_vars, tau, verbose=0):$/;"	f
+get_total_steps	stable_baselines/bench/monitor.py	/^    def get_total_steps(self):$/;"	m	class:Monitor
+get_trainable_variables	stable_baselines/gail/adversary.py	/^    def get_trainable_variables(self):$/;"	m	class:TransitionClassifier
+get_trainable_vars	stable_baselines/common/tf_util.py	/^def get_trainable_vars(name):$/;"	f
+get_vars	stable_baselines/sac/sac.py	/^def get_vars(scope):$/;"	f
+getattr_depth_check	stable_baselines/common/vec_env/base_vec_env.py	/^    def getattr_depth_check(self, name, already_found):$/;"	m	class:VecEnv
+getattr_depth_check	stable_baselines/common/vec_env/base_vec_env.py	/^    def getattr_depth_check(self, name, already_found):$/;"	m	class:VecEnvWrapper
+getattr_recursive	stable_baselines/common/vec_env/base_vec_env.py	/^    def getattr_recursive(self, name):$/;"	m	class:VecEnvWrapper
+getkvs	stable_baselines/logger.py	/^def getkvs():$/;"	f
+gmatmul	stable_baselines/acktr/kfac_utils.py	/^def gmatmul(tensor_a, tensor_b, transpose_a=False, transpose_b=False, reduce_dim=None):$/;"	f
+grad_op	stable_baselines/acktr/kfac.py	/^                    def grad_op():$/;"	f	function:KfacOptimizer.apply_gradients_kfac.dequeue_op.no_op_wrapper
+gradient_add	stable_baselines/a2c/utils.py	/^def gradient_add(grad_1, grad_2, param, verbose=0):$/;"	f
+gray	stable_baselines/common/console_util.py	/^    gray=30,$/;"	v
+green	stable_baselines/common/console_util.py	/^    green=32,$/;"	v
+has_atleast	stable_baselines/acer/buffer.py	/^    def has_atleast(self, frames):$/;"	m	class:Buffer
+help	docs/make.bat	/^:help$/;"	l
+help	stable_baselines/deepq/experiments/custom_cartpole.py	/^                        help="Maximum number of timesteps when not rendering")$/;"	v
+html_logo	docs/conf.py	/^html_logo = '_static\/img\/logo.png'$/;"	v
+html_static_path	docs/conf.py	/^html_static_path = ['_static']$/;"	v
+html_theme	docs/conf.py	/^    html_theme = 'default'$/;"	v
+html_theme	docs/conf.py	/^    html_theme = 'sphinx_rtd_theme'$/;"	v
+htmlhelp_basename	docs/conf.py	/^htmlhelp_basename = 'StableBaselinesdoc'$/;"	v
+huber_loss	stable_baselines/common/tf_util.py	/^def huber_loss(tensor, delta=1.0):$/;"	f
+in_session	stable_baselines/common/tf_util.py	/^def in_session(func):$/;"	f
+info	stable_baselines/logger.py	/^def info(*args):$/;"	f
+init_dataloader	stable_baselines/gail/dataset/dataset.py	/^    def init_dataloader(self, batch_size):$/;"	m	class:ExpertDataset
+initial_state	stable_baselines/common/policies.py	/^    def initial_state(self):$/;"	m	class:BasePolicy
+initial_state	stable_baselines/common/policies.py	/^    def initial_state(self):$/;"	m	class:RecurrentActorCriticPolicy
+initialize	stable_baselines/common/tf_util.py	/^def initialize(sess=None):$/;"	f
+install_requires	setup.py	/^      install_requires=[$/;"	v
+install_tf	setup.py	/^        install_tf = True$/;"	v
+install_tf	setup.py	/^    install_tf = True$/;"	v
+intprod	stable_baselines/common/tf_util.py	/^def intprod(tensor):$/;"	f
+is_discrete	stable_baselines/common/policies.py	/^    def is_discrete(self):$/;"	m	class:BasePolicy
+is_full	stable_baselines/deepq/replay_buffer.py	/^    def is_full(self):$/;"	m	class:ReplayBuffer
+is_image	stable_baselines/common/tf_util.py	/^def is_image(tensor):$/;"	f
+is_json_serializable	stable_baselines/common/save_util.py	/^def is_json_serializable(item):$/;"	f
+iterate_once	stable_baselines/common/dataset.py	/^    def iterate_once(self, batch_size):$/;"	m	class:Dataset
+iterbatches	stable_baselines/common/dataset.py	/^def iterbatches(arrays, *, num_batches=None, batch_size=None, shuffle=True, include_final_partial_batch=True):$/;"	f
+json_to_data	stable_baselines/common/save_util.py	/^def json_to_data(json_string, custom_objects=None):$/;"	f
+keywords	setup.py	/^      keywords="reinforcement-learning-algorithms reinforcement-learning machine-learning "$/;"	v
+kl	stable_baselines/common/distributions.py	/^    def kl(self, other):$/;"	m	class:BernoulliProbabilityDistribution
+kl	stable_baselines/common/distributions.py	/^    def kl(self, other):$/;"	m	class:CategoricalProbabilityDistribution
+kl	stable_baselines/common/distributions.py	/^    def kl(self, other):$/;"	m	class:DiagGaussianProbabilityDistribution
+kl	stable_baselines/common/distributions.py	/^    def kl(self, other):$/;"	m	class:MultiCategoricalProbabilityDistribution
+kl	stable_baselines/common/distributions.py	/^    def kl(self, other):$/;"	m	class:ProbabilityDistribution
+language	docs/conf.py	/^language = None$/;"	v
+latex_documents	docs/conf.py	/^latex_documents = [$/;"	v
+latex_elements	docs/conf.py	/^latex_elements = {$/;"	v
+learn	stable_baselines/a2c/a2c.py	/^    def learn(self, total_timesteps, callback=None, log_interval=100, tb_log_name="A2C",$/;"	m	class:A2C
+learn	stable_baselines/acer/acer_simple.py	/^    def learn(self, total_timesteps, callback=None, log_interval=100, tb_log_name="ACER",$/;"	m	class:ACER
+learn	stable_baselines/acktr/acktr.py	/^    def learn(self, total_timesteps, callback=None, log_interval=100, tb_log_name="ACKTR",$/;"	m	class:ACKTR
+learn	stable_baselines/common/base_class.py	/^    def learn(self, total_timesteps, callback=None, log_interval=100, tb_log_name="run",$/;"	m	class:BaseRLModel
+learn	stable_baselines/common/base_class.py	/^    def learn(self, total_timesteps, callback=None,$/;"	m	class:ActorCriticRLModel
+learn	stable_baselines/common/base_class.py	/^    def learn(self, total_timesteps, callback=None,$/;"	m	class:OffPolicyRLModel
+learn	stable_baselines/ddpg/ddpg.py	/^    def learn(self, total_timesteps, callback=None, log_interval=100, tb_log_name="DDPG",$/;"	m	class:DDPG
+learn	stable_baselines/deepq/dqn.py	/^    def learn(self, total_timesteps, callback=None, log_interval=100, tb_log_name="DQN",$/;"	m	class:DQN
+learn	stable_baselines/gail/model.py	/^    def learn(self, total_timesteps, callback=None, log_interval=100, tb_log_name="GAIL",$/;"	m	class:GAIL
+learn	stable_baselines/her/her.py	/^    def learn(self, total_timesteps, callback=None, log_interval=100, tb_log_name="HER",$/;"	m	class:HER
+learn	stable_baselines/ppo1/pposgd_simple.py	/^    def learn(self, total_timesteps, callback=None, log_interval=100, tb_log_name="PPO1",$/;"	m	class:PPO1
+learn	stable_baselines/ppo2/ppo2.py	/^    def learn(self, total_timesteps, callback=None, log_interval=1, tb_log_name="PPO2",$/;"	m	class:PPO2
+learn	stable_baselines/sac/sac.py	/^    def learn(self, total_timesteps, callback=None,$/;"	m	class:SAC
+learn	stable_baselines/td3/td3.py	/^    def learn(self, total_timesteps, callback=None,$/;"	m	class:TD3
+learn	stable_baselines/trpo_mpi/trpo_mpi.py	/^    def learn(self, total_timesteps, callback=None, log_interval=100, tb_log_name="TRPO",$/;"	m	class:TRPO
+license	setup.py	/^      license="MIT",$/;"	v
+linear	stable_baselines/a2c/utils.py	/^def linear(input_tensor, scope, n_hidden, *, init_scale=1.0, init_bias=0.0):$/;"	f
+linear_interpolation	stable_baselines/common/schedules.py	/^def linear_interpolation(left, right, alpha):$/;"	f
+linear_schedule	stable_baselines/a2c/utils.py	/^def linear_schedule(progress):$/;"	f
+lnlstm	stable_baselines/a2c/utils.py	/^def lnlstm(input_tensor, mask_tensor, cell_state, scope, n_hidden, init_scale=1.0):$/;"	f
+load	stable_baselines/common/base_class.py	/^    def load(cls, load_path, env=None, custom_objects=None, **kwargs):$/;"	m	class:ActorCriticRLModel
+load	stable_baselines/common/base_class.py	/^    def load(cls, load_path, env=None, custom_objects=None, **kwargs):$/;"	m	class:BaseRLModel
+load	stable_baselines/common/base_class.py	/^    def load(cls, load_path, env=None, custom_objects=None, **kwargs):$/;"	m	class:OffPolicyRLModel
+load	stable_baselines/common/vec_env/vec_normalize.py	/^    def load(load_path, venv):$/;"	m	class:VecNormalize
+load	stable_baselines/ddpg/ddpg.py	/^    def load(cls, load_path, env=None, custom_objects=None, **kwargs):$/;"	m	class:DDPG
+load	stable_baselines/her/her.py	/^    def load(cls, load_path, env=None, custom_objects=None, **kwargs):$/;"	m	class:HER
+load_parameters	stable_baselines/common/base_class.py	/^    def load_parameters(self, load_path_or_dict, exact_match=True):$/;"	m	class:BaseRLModel
+load_results	stable_baselines/bench/monitor.py	/^def load_results(path):$/;"	f
+load_running_average	stable_baselines/common/vec_env/vec_normalize.py	/^    def load_running_average(self, path):$/;"	m	class:VecNormalize
+log	stable_baselines/logger.py	/^    def log(self, *args, level=INFO):$/;"	m	class:Logger
+log	stable_baselines/logger.py	/^def log(*args, level=INFO):$/;"	f
+log_info	stable_baselines/gail/dataset/dataset.py	/^    def log_info(self):$/;"	m	class:ExpertDataset
+logit_bernoulli_entropy	stable_baselines/gail/adversary.py	/^def logit_bernoulli_entropy(logits):$/;"	f
+logkv	stable_baselines/logger.py	/^    def logkv(self, key, val):$/;"	m	class:Logger
+logkv	stable_baselines/logger.py	/^def logkv(key, val):$/;"	f
+logkv_mean	stable_baselines/logger.py	/^    def logkv_mean(self, key, val):$/;"	m	class:Logger
+logkv_mean	stable_baselines/logger.py	/^def logkv_mean(key, val):$/;"	f
+logkvs	stable_baselines/logger.py	/^def logkvs(key_values):$/;"	f
+logp	stable_baselines/common/distributions.py	/^    def logp(self, x):$/;"	m	class:ProbabilityDistribution
+logsigmoid	stable_baselines/gail/adversary.py	/^def logsigmoid(input_tensor):$/;"	f
+long_description	setup.py	/^      long_description=long_description,$/;"	v
+long_description_content_type	setup.py	/^      long_description_content_type='text\/markdown',$/;"	v
+lstm	stable_baselines/a2c/utils.py	/^def lstm(input_tensor, mask_tensor, cell_state_hidden, scope, n_hidden, init_scale=1.0, layer_norm=False):$/;"	f
+magenta	stable_baselines/common/console_util.py	/^    magenta=35,$/;"	v
+main	stable_baselines/a2c/run_atari.py	/^def main():$/;"	f
+main	stable_baselines/acer/run_atari.py	/^def main():$/;"	f
+main	stable_baselines/acktr/run_atari.py	/^def main():$/;"	f
+main	stable_baselines/deepq/experiments/custom_cartpole.py	/^def main(args):$/;"	f
+main	stable_baselines/deepq/experiments/enjoy_cartpole.py	/^def main(args):$/;"	f
+main	stable_baselines/deepq/experiments/enjoy_mountaincar.py	/^def main(args):$/;"	f
+main	stable_baselines/deepq/experiments/run_atari.py	/^def main():$/;"	f
+main	stable_baselines/deepq/experiments/train_cartpole.py	/^def main(args):$/;"	f
+main	stable_baselines/deepq/experiments/train_mountaincar.py	/^def main(args):$/;"	f
+main	stable_baselines/ppo1/run_atari.py	/^def main():$/;"	f
+main	stable_baselines/ppo1/run_mujoco.py	/^def main():$/;"	f
+main	stable_baselines/ppo1/run_robotics.py	/^def main():$/;"	f
+main	stable_baselines/ppo2/run_atari.py	/^def main():$/;"	f
+main	stable_baselines/ppo2/run_mujoco.py	/^def main():$/;"	f
+main	stable_baselines/results_plotter.py	/^def main():$/;"	f
+main	stable_baselines/trpo_mpi/run_atari.py	/^def main():$/;"	f
+main	stable_baselines/trpo_mpi/run_mujoco.py	/^def main():$/;"	f
+make_actor	stable_baselines/ddpg/policies.py	/^    def make_actor(self, obs=None, reuse=False, scope="pi"):$/;"	m	class:DDPGPolicy
+make_actor	stable_baselines/ddpg/policies.py	/^    def make_actor(self, obs=None, reuse=False, scope="pi"):$/;"	m	class:FeedForwardPolicy
+make_actor	stable_baselines/sac/policies.py	/^    def make_actor(self, obs=None, reuse=False, scope="pi"):$/;"	m	class:FeedForwardPolicy
+make_actor	stable_baselines/sac/policies.py	/^    def make_actor(self, obs=None, reuse=False, scope="pi"):$/;"	m	class:SACPolicy
+make_actor	stable_baselines/td3/policies.py	/^    def make_actor(self, obs=None, reuse=False, scope="pi"):$/;"	m	class:FeedForwardPolicy
+make_actor	stable_baselines/td3/policies.py	/^    def make_actor(self, obs=None, reuse=False, scope="pi"):$/;"	m	class:TD3Policy
+make_atari	stable_baselines/common/atari_wrappers.py	/^def make_atari(env_id):$/;"	f
+make_atari_env	stable_baselines/common/cmd_util.py	/^def make_atari_env(env_id, num_env, seed, wrapper_kwargs=None,$/;"	f
+make_critic	stable_baselines/ddpg/policies.py	/^    def make_critic(self, obs=None, action=None, reuse=False, scope="qf"):$/;"	m	class:DDPGPolicy
+make_critic	stable_baselines/ddpg/policies.py	/^    def make_critic(self, obs=None, action=None, reuse=False, scope="qf"):$/;"	m	class:FeedForwardPolicy
+make_critics	stable_baselines/sac/policies.py	/^    def make_critics(self, obs=None, action=None, reuse=False, scope="values_fn",$/;"	m	class:FeedForwardPolicy
+make_critics	stable_baselines/sac/policies.py	/^    def make_critics(self, obs=None, action=None, reuse=False,$/;"	m	class:SACPolicy
+make_critics	stable_baselines/td3/policies.py	/^    def make_critics(self, obs=None, action=None, reuse=False, scope="values_fn"):$/;"	m	class:FeedForwardPolicy
+make_critics	stable_baselines/td3/policies.py	/^    def make_critics(self, obs=None, action=None, reuse=False,$/;"	m	class:TD3Policy
+make_env	stable_baselines/common/cmd_util.py	/^    def make_env(rank):$/;"	f	function:make_atari_env
+make_env	stable_baselines/ppo2/run_mujoco.py	/^    def make_env():$/;"	f	function:train
+make_env	tests/test_lstm_policy.py	/^    def make_env(i):$/;"	f	function:test_lstm_train
+make_env	tests/test_vec_envs.py	/^    def make_env():$/;"	f	function:check_vecenv_spaces
+make_env	tests/test_vec_envs.py	/^    def make_env():$/;"	f	function:test_vecenv_custom_calls
+make_env	tests/test_vec_envs.py	/^    def make_env():$/;"	f	function:test_vecenv_wrapper_getattr
+make_env	tests/test_vec_normalize.py	/^def make_env():$/;"	f
+make_mujoco_env	stable_baselines/common/cmd_util.py	/^def make_mujoco_env(env_id, seed, allow_early_resets=True):$/;"	f
+make_output_format	stable_baselines/logger.py	/^def make_output_format(_format, ev_dir, log_suffix=''):$/;"	f
+make_path	stable_baselines/a2c/utils.py	/^def make_path(path):$/;"	f
+make_proba_dist_type	stable_baselines/common/distributions.py	/^def make_proba_dist_type(ac_space):$/;"	f
+make_robotics_env	stable_baselines/common/cmd_util.py	/^def make_robotics_env(env_id, seed, rank=0, allow_early_resets=True):$/;"	f
+make_session	stable_baselines/common/tf_util.py	/^def make_session(num_cpu=None, make_default=False, graph=None):$/;"	f
+man_pages	docs/conf.py	/^man_pages = [$/;"	v
+master_doc	docs/conf.py	/^master_doc = 'index'$/;"	v
+mean_length	stable_baselines/a2c/utils.py	/^    def mean_length(self):$/;"	m	class:EpisodeStats
+mean_reward	stable_baselines/a2c/utils.py	/^    def mean_reward(self):$/;"	m	class:EpisodeStats
+metadata	stable_baselines/common/vec_env/base_vec_env.py	/^    metadata = {$/;"	v	class:VecEnv
+metadata	tests/test_vec_check_nan.py	/^    metadata = {'render.modes': ['human']}$/;"	v	class:NanAndInfEnv
+middle_drop	stable_baselines/a2c/utils.py	/^def middle_drop(progress):$/;"	f
+min	stable_baselines/common/segment_tree.py	/^    def min(self, start=0, end=None):$/;"	m	class:MinSegmentTree
+minimize	stable_baselines/acktr/kfac.py	/^    def minimize(self, loss, loss_sampled, var_list=None):$/;"	m	class:KfacOptimizer
+mlp	stable_baselines/sac/policies.py	/^def mlp(input_ph, layers, activ_fn=tf.nn.relu, layer_norm=False):$/;"	f
+mlp_extractor	stable_baselines/common/policies.py	/^def mlp_extractor(flat_observations, net_arch, act_fun):$/;"	f
+mode	stable_baselines/common/distributions.py	/^    def mode(self):$/;"	m	class:BernoulliProbabilityDistribution
+mode	stable_baselines/common/distributions.py	/^    def mode(self):$/;"	m	class:CategoricalProbabilityDistribution
+mode	stable_baselines/common/distributions.py	/^    def mode(self):$/;"	m	class:DiagGaussianProbabilityDistribution
+mode	stable_baselines/common/distributions.py	/^    def mode(self):$/;"	m	class:MultiCategoricalProbabilityDistribution
+mode	stable_baselines/common/distributions.py	/^    def mode(self):$/;"	m	class:ProbabilityDistribution
+model	stable_baselines/ppo1/experiments/train_cartpole.py	/^    model = PPO1('MlpPolicy', 'CartPole-v1', schedule='linear', verbose=0)$/;"	v
+model_predict	tests/test_her.py	/^def model_predict(model, env, n_steps, additional_check=None):$/;"	f
+mpi4py	stable_baselines/__init__.py	/^    mpi4py = None$/;"	v
+mpi_mean	stable_baselines/common/mpi_moments.py	/^def mpi_mean(arr, axis=0, comm=None, keepdims=False):$/;"	f
+mpi_moments	stable_baselines/common/mpi_moments.py	/^def mpi_moments(arr, axis=0, comm=None, keepdims=False):$/;"	f
+mpi_rank_or_zero	stable_baselines/common/misc_util.py	/^def mpi_rank_or_zero():$/;"	f
+mse	stable_baselines/a2c/utils.py	/^def mse(pred, target):$/;"	f
+mujoco_arg_parser	stable_baselines/common/cmd_util.py	/^def mujoco_arg_parser():$/;"	f
+name_test	tests/test_vec_envs.py	/^    def name_test(self):$/;"	m	class:CustomWrapperB
+nature_cnn	stable_baselines/common/policies.py	/^def nature_cnn(scaled_images, **kwargs):$/;"	f
+neglogp	stable_baselines/common/distributions.py	/^    def neglogp(self, x):$/;"	m	class:BernoulliProbabilityDistribution
+neglogp	stable_baselines/common/distributions.py	/^    def neglogp(self, x):$/;"	m	class:CategoricalProbabilityDistribution
+neglogp	stable_baselines/common/distributions.py	/^    def neglogp(self, x):$/;"	m	class:DiagGaussianProbabilityDistribution
+neglogp	stable_baselines/common/distributions.py	/^    def neglogp(self, x):$/;"	m	class:MultiCategoricalProbabilityDistribution
+neglogp	stable_baselines/common/distributions.py	/^    def neglogp(self, x):$/;"	m	class:ProbabilityDistribution
+neglogp	stable_baselines/common/policies.py	/^    def neglogp(self):$/;"	m	class:ActorCriticPolicy
+newfunc	stable_baselines/common/tf_util.py	/^    def newfunc(*args, **kwargs):$/;"	f	function:in_session
+next_batch	stable_baselines/common/dataset.py	/^    def next_batch(self, batch_size):$/;"	m	class:Dataset
+no_op_wrapper	stable_baselines/acktr/kfac.py	/^                def no_op_wrapper():$/;"	f	function:KfacOptimizer.apply_gradients_kfac.dequeue_op
+normalize	stable_baselines/ddpg/ddpg.py	/^def normalize(tensor, stats):$/;"	f
+numel	stable_baselines/common/tf_util.py	/^def numel(tensor):$/;"	f
+obs_assert	tests/test_vec_envs.py	/^    def obs_assert(obs):$/;"	f	function:test_subproc_start_method
+obs_assert	tests/test_vec_envs.py	/^    def obs_assert(obs):$/;"	f	function:test_vecenv_dict_spaces
+obs_assert	tests/test_vec_envs.py	/^    def obs_assert(obs):$/;"	f	function:test_vecenv_single_space
+obs_assert	tests/test_vec_envs.py	/^    def obs_assert(obs):$/;"	f	function:test_vecenv_tuple_spaces
+obs_ph	stable_baselines/common/policies.py	/^    def obs_ph(self):$/;"	m	class:BasePolicy
+obs_space_info	stable_baselines/common/vec_env/util.py	/^def obs_space_info(obs_space):$/;"	f
+observation	stable_baselines/common/atari_wrappers.py	/^    def observation(self, frame):$/;"	m	class:WarpFrame
+observation	stable_baselines/common/atari_wrappers.py	/^    def observation(self, observation):$/;"	m	class:ScaledFloatFrame
+observation_input	stable_baselines/common/input.py	/^def observation_input(ob_space, batch_size=None, name='Ob', scale=False):$/;"	f
+on_rtd	docs/conf.py	/^on_rtd = os.environ.get('READTHEDOCS') == 'True'$/;"	v
+optim_op	stable_baselines/acktr/kfac.py	/^                    def optim_op():$/;"	f	function:KfacOptimizer.apply_gradients_kfac.dequeue_op.no_op_wrapper
+ortho_init	stable_baselines/a2c/utils.py	/^def ortho_init(scale=1.0):$/;"	f
+outer_scope_getter	stable_baselines/common/tf_util.py	/^def outer_scope_getter(scope, new_scope=""):$/;"	f
+package_data	setup.py	/^      package_data={$/;"	v
+packages	setup.py	/^      packages=[package for package in find_packages()$/;"	v
+param_placeholder	stable_baselines/common/distributions.py	/^    def param_placeholder(self, prepend_shape, name=None):$/;"	m	class:ProbabilityDistributionType
+param_shape	stable_baselines/common/distributions.py	/^    def param_shape(self):$/;"	m	class:BernoulliProbabilityDistributionType
+param_shape	stable_baselines/common/distributions.py	/^    def param_shape(self):$/;"	m	class:CategoricalProbabilityDistributionType
+param_shape	stable_baselines/common/distributions.py	/^    def param_shape(self):$/;"	m	class:DiagGaussianProbabilityDistributionType
+param_shape	stable_baselines/common/distributions.py	/^    def param_shape(self):$/;"	m	class:MultiCategoricalProbabilityDistributionType
+param_shape	stable_baselines/common/distributions.py	/^    def param_shape(self):$/;"	m	class:ProbabilityDistributionType
+params_to_bytes	stable_baselines/common/save_util.py	/^def params_to_bytes(params):$/;"	f
+parse_args	stable_baselines/ddpg/main.py	/^def parse_args():$/;"	f
+parser	stable_baselines/deepq/experiments/custom_cartpole.py	/^    parser = argparse.ArgumentParser(description="Train DQN on cartpole using a custom mlp")$/;"	v
+parser	stable_baselines/deepq/experiments/enjoy_cartpole.py	/^    parser = argparse.ArgumentParser(description="Enjoy trained DQN on cartpole")$/;"	v
+parser	stable_baselines/deepq/experiments/enjoy_mountaincar.py	/^    parser = argparse.ArgumentParser(description="Enjoy trained DQN on MountainCar")$/;"	v
+parser	stable_baselines/deepq/experiments/train_cartpole.py	/^    parser = argparse.ArgumentParser(description="Train DQN on cartpole")$/;"	v
+parser	stable_baselines/deepq/experiments/train_mountaincar.py	/^    parser = argparse.ArgumentParser(description="Train DQN on cartpole")$/;"	v
+pdtype	stable_baselines/common/policies.py	/^    def pdtype(self):$/;"	m	class:ActorCriticPolicy
+perturb_vars	stable_baselines/deepq/build_graph.py	/^    def perturb_vars(original_scope, perturbed_scope):$/;"	f	function:build_act_with_param_noise
+plot	stable_baselines/gail/dataset/dataset.py	/^    def plot(self):$/;"	m	class:ExpertDataset
+plot_curves	stable_baselines/results_plotter.py	/^def plot_curves(xy_list, xaxis, title):$/;"	f
+plot_results	stable_baselines/results_plotter.py	/^def plot_results(dirs, num_timesteps, xaxis, task_name):$/;"	f
+policy	stable_baselines/common/policies.py	/^    def policy(self):$/;"	m	class:ActorCriticPolicy
+policy_proba	stable_baselines/common/policies.py	/^    def policy_proba(self):$/;"	m	class:ActorCriticPolicy
+predict	stable_baselines/common/base_class.py	/^    def predict(self, observation, state=None, mask=None, deterministic=False):$/;"	m	class:ActorCriticRLModel
+predict	stable_baselines/common/base_class.py	/^    def predict(self, observation, state=None, mask=None, deterministic=False):$/;"	m	class:BaseRLModel
+predict	stable_baselines/common/base_class.py	/^    def predict(self, observation, state=None, mask=None, deterministic=False):$/;"	m	class:OffPolicyRLModel
+predict	stable_baselines/ddpg/ddpg.py	/^    def predict(self, observation, state=None, mask=None, deterministic=True):$/;"	m	class:DDPG
+predict	stable_baselines/deepq/dqn.py	/^    def predict(self, observation, state=None, mask=None, deterministic=True):$/;"	m	class:DQN
+predict	stable_baselines/her/her.py	/^    def predict(self, observation, state=None, mask=None, deterministic=True):$/;"	m	class:HER
+predict	stable_baselines/sac/sac.py	/^    def predict(self, observation, state=None, mask=None, deterministic=True):$/;"	m	class:SAC
+predict	stable_baselines/td3/td3.py	/^    def predict(self, observation, state=None, mask=None, deterministic=True):$/;"	m	class:TD3
+prepare_pickling	stable_baselines/gail/dataset/dataset.py	/^    def prepare_pickling(self):$/;"	m	class:ExpertDataset
+pretrain	stable_baselines/common/base_class.py	/^    def pretrain(self, dataset, n_epochs=10, learning_rate=1e-4,$/;"	m	class:BaseRLModel
+proba_distribution	stable_baselines/common/policies.py	/^    def proba_distribution(self):$/;"	m	class:ActorCriticPolicy
+proba_distribution_from_flat	stable_baselines/common/distributions.py	/^    def proba_distribution_from_flat(self, flat):$/;"	m	class:DiagGaussianProbabilityDistributionType
+proba_distribution_from_flat	stable_baselines/common/distributions.py	/^    def proba_distribution_from_flat(self, flat):$/;"	m	class:MultiCategoricalProbabilityDistributionType
+proba_distribution_from_flat	stable_baselines/common/distributions.py	/^    def proba_distribution_from_flat(self, flat):$/;"	m	class:ProbabilityDistributionType
+proba_distribution_from_latent	stable_baselines/common/distributions.py	/^    def proba_distribution_from_latent(self, pi_latent_vector, vf_latent_vector, init_scale=1.0, init_bias=0.0):$/;"	m	class:BernoulliProbabilityDistributionType
+proba_distribution_from_latent	stable_baselines/common/distributions.py	/^    def proba_distribution_from_latent(self, pi_latent_vector, vf_latent_vector, init_scale=1.0, init_bias=0.0):$/;"	m	class:CategoricalProbabilityDistributionType
+proba_distribution_from_latent	stable_baselines/common/distributions.py	/^    def proba_distribution_from_latent(self, pi_latent_vector, vf_latent_vector, init_scale=1.0, init_bias=0.0):$/;"	m	class:DiagGaussianProbabilityDistributionType
+proba_distribution_from_latent	stable_baselines/common/distributions.py	/^    def proba_distribution_from_latent(self, pi_latent_vector, vf_latent_vector, init_scale=1.0, init_bias=0.0):$/;"	m	class:MultiCategoricalProbabilityDistributionType
+proba_distribution_from_latent	stable_baselines/common/distributions.py	/^    def proba_distribution_from_latent(self, pi_latent_vector, vf_latent_vector, init_scale=1.0, init_bias=0.0):$/;"	m	class:ProbabilityDistributionType
+proba_step	stable_baselines/common/policies.py	/^    def proba_step(self, obs, state=None, mask=None):$/;"	m	class:BasePolicy
+proba_step	stable_baselines/common/policies.py	/^    def proba_step(self, obs, state=None, mask=None):$/;"	m	class:FeedForwardPolicy
+proba_step	stable_baselines/common/policies.py	/^    def proba_step(self, obs, state=None, mask=None):$/;"	m	class:LstmPolicy
+proba_step	stable_baselines/ddpg/policies.py	/^    def proba_step(self, obs, state=None, mask=None):$/;"	m	class:DDPGPolicy
+proba_step	stable_baselines/ddpg/policies.py	/^    def proba_step(self, obs, state=None, mask=None):$/;"	m	class:FeedForwardPolicy
+proba_step	stable_baselines/deepq/policies.py	/^    def proba_step(self, obs, state=None, mask=None):$/;"	m	class:DQNPolicy
+proba_step	stable_baselines/deepq/policies.py	/^    def proba_step(self, obs, state=None, mask=None):$/;"	m	class:FeedForwardPolicy
+proba_step	stable_baselines/sac/policies.py	/^    def proba_step(self, obs, state=None, mask=None):$/;"	m	class:FeedForwardPolicy
+proba_step	stable_baselines/sac/policies.py	/^    def proba_step(self, obs, state=None, mask=None):$/;"	m	class:SACPolicy
+proba_step	stable_baselines/td3/policies.py	/^    def proba_step(self, obs, state=None, mask=None):$/;"	m	class:TD3Policy
+probability_distribution_class	stable_baselines/common/distributions.py	/^    def probability_distribution_class(self):$/;"	m	class:BernoulliProbabilityDistributionType
+probability_distribution_class	stable_baselines/common/distributions.py	/^    def probability_distribution_class(self):$/;"	m	class:CategoricalProbabilityDistributionType
+probability_distribution_class	stable_baselines/common/distributions.py	/^    def probability_distribution_class(self):$/;"	m	class:DiagGaussianProbabilityDistributionType
+probability_distribution_class	stable_baselines/common/distributions.py	/^    def probability_distribution_class(self):$/;"	m	class:MultiCategoricalProbabilityDistributionType
+probability_distribution_class	stable_baselines/common/distributions.py	/^    def probability_distribution_class(self):$/;"	m	class:ProbabilityDistributionType
+processed_obs	stable_baselines/common/policies.py	/^    def processed_obs(self):$/;"	m	class:BasePolicy
+profile	stable_baselines/logger.py	/^def profile(name):$/;"	f
+project	docs/conf.py	/^project = 'Stable Baselines'$/;"	v
+put	stable_baselines/acer/buffer.py	/^    def put(self, enc_obs, actions, rewards, mus, dones, masks):$/;"	m	class:Buffer
+pygments_style	docs/conf.py	/^pygments_style = 'sphinx'$/;"	v
+pytest_addoption	conftest.py	/^def pytest_addoption(parser):$/;"	f
+pytest_collection_modifyitems	conftest.py	/^def pytest_collection_modifyitems(config, items):$/;"	f
+q_explained_variance	stable_baselines/a2c/utils.py	/^def q_explained_variance(q_pred, q_true):$/;"	f
+q_retrace	stable_baselines/acer/acer_simple.py	/^def q_retrace(rewards, dones, q_i, values, rho_i, n_envs, n_steps, gamma):$/;"	f
+read_csv	stable_baselines/logger.py	/^def read_csv(fname):$/;"	f
+read_json	stable_baselines/logger.py	/^def read_json(fname):$/;"	f
+read_tb	stable_baselines/logger.py	/^def read_tb(path):$/;"	f
+record_tabular	stable_baselines/logger.py	/^record_tabular = logkv$/;"	v
+recurrent	stable_baselines/common/policies.py	/^    recurrent = False$/;"	v	class:BasePolicy
+recurrent	stable_baselines/common/policies.py	/^    recurrent = True$/;"	v	class:LstmPolicy
+recurrent	stable_baselines/common/policies.py	/^    recurrent = True$/;"	v	class:RecurrentActorCriticPolicy
+red	stable_baselines/common/console_util.py	/^    red=31,$/;"	v
+reduce	stable_baselines/common/segment_tree.py	/^    def reduce(self, start=0, end=None):$/;"	m	class:SegmentTree
+reduce_std	stable_baselines/ddpg/ddpg.py	/^def reduce_std(tensor, axis=None, keepdims=False):$/;"	f
+reduce_var	stable_baselines/ddpg/ddpg.py	/^def reduce_var(tensor, axis=None, keepdims=False):$/;"	f
+register_policy	stable_baselines/common/policies.py	/^def register_policy(name, policy):$/;"	f
+release	docs/conf.py	/^release = stable_baselines.__version__$/;"	v
+render	stable_baselines/common/base_class.py	/^    def render(self, mode='human'):$/;"	m	class:_UnvecWrapper
+render	stable_baselines/common/bit_flipping_env.py	/^    def render(self, mode='human'):$/;"	m	class:BitFlippingEnv
+render	stable_baselines/common/identity_env.py	/^    def render(self, mode='human'):$/;"	m	class:IdentityEnv
+render	stable_baselines/common/vec_env/base_vec_env.py	/^    def render(self, *args, **kwargs):$/;"	m	class:VecEnv
+render	stable_baselines/common/vec_env/base_vec_env.py	/^    def render(self, *args, **kwargs):$/;"	m	class:VecEnvWrapper
+render	stable_baselines/common/vec_env/dummy_vec_env.py	/^    def render(self, *args, **kwargs):$/;"	m	class:DummyVecEnv
+render	stable_baselines/common/vec_env/subproc_vec_env.py	/^    def render(self, mode='human', *args, **kwargs):$/;"	m	class:SubprocVecEnv
+render	stable_baselines/her/utils.py	/^    def render(self, mode='human'):$/;"	m	class:HERGoalEnvWrapper
+render	tests/test_vec_check_nan.py	/^    def render(self, mode='human', close=False):$/;"	m	class:NanAndInfEnv
+render	tests/test_vec_envs.py	/^    def render(self, mode='human'):$/;"	m	class:CustomGymEnv
+reset	stable_baselines/bench/monitor.py	/^    def reset(self, **kwargs):$/;"	m	class:Monitor
+reset	stable_baselines/common/atari_wrappers.py	/^    def reset(self):$/;"	m	class:FrameStack
+reset	stable_baselines/common/atari_wrappers.py	/^    def reset(self, **kwargs):$/;"	m	class:EpisodicLifeEnv
+reset	stable_baselines/common/atari_wrappers.py	/^    def reset(self, **kwargs):$/;"	m	class:FireResetEnv
+reset	stable_baselines/common/atari_wrappers.py	/^    def reset(self, **kwargs):$/;"	m	class:MaxAndSkipEnv
+reset	stable_baselines/common/atari_wrappers.py	/^    def reset(self, **kwargs):$/;"	m	class:NoopResetEnv
+reset	stable_baselines/common/base_class.py	/^    def reset(self):$/;"	m	class:_UnvecWrapper
+reset	stable_baselines/common/bit_flipping_env.py	/^    def reset(self):$/;"	m	class:BitFlippingEnv
+reset	stable_baselines/common/identity_env.py	/^    def reset(self):$/;"	m	class:IdentityEnv
+reset	stable_baselines/common/identity_env.py	/^    def reset(self):$/;"	m	class:IdentityEnvBox
+reset	stable_baselines/common/noise.py	/^    def reset(self):$/;"	m	class:ActionNoise
+reset	stable_baselines/common/noise.py	/^    def reset(self):$/;"	m	class:OrnsteinUhlenbeckActionNoise
+reset	stable_baselines/common/vec_env/base_vec_env.py	/^    def reset(self):$/;"	m	class:VecEnv
+reset	stable_baselines/common/vec_env/base_vec_env.py	/^    def reset(self):$/;"	m	class:VecEnvWrapper
+reset	stable_baselines/common/vec_env/dummy_vec_env.py	/^    def reset(self):$/;"	m	class:DummyVecEnv
+reset	stable_baselines/common/vec_env/subproc_vec_env.py	/^    def reset(self):$/;"	m	class:SubprocVecEnv
+reset	stable_baselines/common/vec_env/vec_check_nan.py	/^    def reset(self):$/;"	m	class:VecCheckNan
+reset	stable_baselines/common/vec_env/vec_frame_stack.py	/^    def reset(self):$/;"	m	class:VecFrameStack
+reset	stable_baselines/common/vec_env/vec_normalize.py	/^    def reset(self):$/;"	m	class:VecNormalize
+reset	stable_baselines/common/vec_env/vec_video_recorder.py	/^    def reset(self):$/;"	m	class:VecVideoRecorder
+reset	stable_baselines/her/utils.py	/^    def reset(self):$/;"	m	class:HERGoalEnvWrapper
+reset	stable_baselines/logger.py	/^def reset():$/;"	f
+reset	tests/test_lstm_policy.py	/^    def reset(self):$/;"	m	class:CartPoleNoVelEnv
+reset	tests/test_vec_check_nan.py	/^    def reset():$/;"	m	class:NanAndInfEnv
+reset	tests/test_vec_envs.py	/^    def reset(self):$/;"	m	class:CustomGymEnv
+reset	tests/test_vec_envs.py	/^    def reset(self):$/;"	m	class:StepEnv
+reward	stable_baselines/common/atari_wrappers.py	/^    def reward(self, reward):$/;"	m	class:ClipRewardEnv
+reward_callback	tests/test_lstm_policy.py	/^    def reward_callback(local, _):$/;"	f	function:test_lstm_train
+robotics_arg_parser	stable_baselines/common/cmd_util.py	/^def robotics_arg_parser():$/;"	f
+rolling_window	stable_baselines/results_plotter.py	/^def rolling_window(array, window):$/;"	f
+run	stable_baselines/a2c/a2c.py	/^    def run(self):$/;"	m	class:A2CRunner
+run	stable_baselines/acer/acer_simple.py	/^    def run(self):$/;"	m	class:_Runner
+run	stable_baselines/common/runners.py	/^    def run(self):$/;"	m	class:AbstractEnvRunner
+run	stable_baselines/ddpg/main.py	/^def run(env_id, seed, noise_type, layer_norm, evaluation, **kwargs):$/;"	f
+run	stable_baselines/ppo2/ppo2.py	/^    def run(self):$/;"	m	class:Runner
+safe_mean	stable_baselines/ppo2/ppo2.py	/^def safe_mean(arr):$/;"	f
+sample	stable_baselines/a2c/utils.py	/^def sample(logits):$/;"	f
+sample	stable_baselines/common/distributions.py	/^    def sample(self):$/;"	m	class:BernoulliProbabilityDistribution
+sample	stable_baselines/common/distributions.py	/^    def sample(self):$/;"	m	class:CategoricalProbabilityDistribution
+sample	stable_baselines/common/distributions.py	/^    def sample(self):$/;"	m	class:DiagGaussianProbabilityDistribution
+sample	stable_baselines/common/distributions.py	/^    def sample(self):$/;"	m	class:MultiCategoricalProbabilityDistribution
+sample	stable_baselines/common/distributions.py	/^    def sample(self):$/;"	m	class:ProbabilityDistribution
+sample	stable_baselines/deepq/replay_buffer.py	/^    def sample(self, batch_size, **_kwargs):$/;"	m	class:ReplayBuffer
+sample	stable_baselines/deepq/replay_buffer.py	/^    def sample(self, batch_size, beta=0):$/;"	m	class:PrioritizedReplayBuffer
+sample	stable_baselines/her/replay_buffer.py	/^    def sample(self, *args, **kwargs):$/;"	m	class:HindsightExperienceReplayWrapper
+sample	tests/test_vec_envs.py	/^    def sample(self):$/;"	m	class:_UnorderedDictSpace
+sample_dtype	stable_baselines/common/distributions.py	/^    def sample_dtype(self):$/;"	m	class:BernoulliProbabilityDistributionType
+sample_dtype	stable_baselines/common/distributions.py	/^    def sample_dtype(self):$/;"	m	class:CategoricalProbabilityDistributionType
+sample_dtype	stable_baselines/common/distributions.py	/^    def sample_dtype(self):$/;"	m	class:DiagGaussianProbabilityDistributionType
+sample_dtype	stable_baselines/common/distributions.py	/^    def sample_dtype(self):$/;"	m	class:MultiCategoricalProbabilityDistributionType
+sample_dtype	stable_baselines/common/distributions.py	/^    def sample_dtype(self):$/;"	m	class:ProbabilityDistributionType
+sample_placeholder	stable_baselines/common/distributions.py	/^    def sample_placeholder(self, prepend_shape, name=None):$/;"	m	class:ProbabilityDistributionType
+sample_shape	stable_baselines/common/distributions.py	/^    def sample_shape(self):$/;"	m	class:BernoulliProbabilityDistributionType
+sample_shape	stable_baselines/common/distributions.py	/^    def sample_shape(self):$/;"	m	class:CategoricalProbabilityDistributionType
+sample_shape	stable_baselines/common/distributions.py	/^    def sample_shape(self):$/;"	m	class:DiagGaussianProbabilityDistributionType
+sample_shape	stable_baselines/common/distributions.py	/^    def sample_shape(self):$/;"	m	class:MultiCategoricalProbabilityDistributionType
+sample_shape	stable_baselines/common/distributions.py	/^    def sample_shape(self):$/;"	m	class:ProbabilityDistributionType
+save	stable_baselines/a2c/a2c.py	/^    def save(self, save_path, cloudpickle=False):$/;"	m	class:A2C
+save	stable_baselines/acer/acer_simple.py	/^    def save(self, save_path, cloudpickle=False):$/;"	m	class:ACER
+save	stable_baselines/acktr/acktr.py	/^    def save(self, save_path, cloudpickle=False):$/;"	m	class:ACKTR
+save	stable_baselines/common/base_class.py	/^    def save(self, save_path, cloudpickle=False):$/;"	m	class:ActorCriticRLModel
+save	stable_baselines/common/base_class.py	/^    def save(self, save_path, cloudpickle=False):$/;"	m	class:BaseRLModel
+save	stable_baselines/common/base_class.py	/^    def save(self, save_path, cloudpickle=False):$/;"	m	class:OffPolicyRLModel
+save	stable_baselines/common/vec_env/vec_normalize.py	/^    def save(self, save_path):$/;"	m	class:VecNormalize
+save	stable_baselines/ddpg/ddpg.py	/^    def save(self, save_path, cloudpickle=False):$/;"	m	class:DDPG
+save	stable_baselines/deepq/dqn.py	/^    def save(self, save_path, cloudpickle=False):$/;"	m	class:DQN
+save	stable_baselines/her/her.py	/^    def save(self, save_path, cloudpickle=False):$/;"	m	class:HER
+save	stable_baselines/ppo1/pposgd_simple.py	/^    def save(self, save_path, cloudpickle=False):$/;"	m	class:PPO1
+save	stable_baselines/ppo2/ppo2.py	/^    def save(self, save_path, cloudpickle=False):$/;"	m	class:PPO2
+save	stable_baselines/sac/sac.py	/^    def save(self, save_path, cloudpickle=False):$/;"	m	class:SAC
+save	stable_baselines/td3/td3.py	/^    def save(self, save_path, cloudpickle=False):$/;"	m	class:TD3
+save	stable_baselines/trpo_mpi/trpo_mpi.py	/^    def save(self, save_path, cloudpickle=False):$/;"	m	class:TRPO
+save_running_average	stable_baselines/common/vec_env/vec_normalize.py	/^    def save_running_average(self, path):$/;"	m	class:VecNormalize
+scope_name	stable_baselines/deepq/build_graph.py	/^def scope_name():$/;"	f
+scope_vars	stable_baselines/deepq/build_graph.py	/^def scope_vars(scope, trainable_only=False):$/;"	f
+seed	stable_baselines/common/base_class.py	/^    def seed(self, seed=None):$/;"	m	class:_UnvecWrapper
+seed	stable_baselines/her/utils.py	/^    def seed(self, seed=None):$/;"	m	class:HERGoalEnvWrapper
+seq_to_batch	stable_baselines/a2c/utils.py	/^def seq_to_batch(tensor_sequence, flat=False):$/;"	f
+sequential_next	stable_baselines/gail/dataset/dataset.py	/^    def sequential_next(self):$/;"	m	class:DataLoader
+set_attr	stable_baselines/common/vec_env/base_vec_env.py	/^    def set_attr(self, attr_name, value, indices=None):$/;"	m	class:VecEnv
+set_attr	stable_baselines/common/vec_env/base_vec_env.py	/^    def set_attr(self, attr_name, value, indices=None):$/;"	m	class:VecEnvWrapper
+set_attr	stable_baselines/common/vec_env/dummy_vec_env.py	/^    def set_attr(self, attr_name, value, indices=None):$/;"	m	class:DummyVecEnv
+set_attr	stable_baselines/common/vec_env/subproc_vec_env.py	/^    def set_attr(self, attr_name, value, indices=None):$/;"	m	class:SubprocVecEnv
+set_env	stable_baselines/acer/acer_simple.py	/^    def set_env(self, env):$/;"	m	class:ACER
+set_env	stable_baselines/common/base_class.py	/^    def set_env(self, env):$/;"	m	class:BaseRLModel
+set_env	stable_baselines/her/her.py	/^    def set_env(self, env):$/;"	m	class:HER
+set_global_seeds	stable_baselines/common/misc_util.py	/^def set_global_seeds(seed):$/;"	f
+set_level	stable_baselines/logger.py	/^    def set_level(self, level):$/;"	m	class:Logger
+set_level	stable_baselines/logger.py	/^def set_level(level):$/;"	f
+set_random_seed	stable_baselines/common/base_class.py	/^    def set_random_seed(self, seed):$/;"	m	class:BaseRLModel
+set_venv	stable_baselines/common/vec_env/vec_normalize.py	/^    def set_venv(self, venv):$/;"	m	class:VecNormalize
+setup	docs/conf.py	/^def setup(app):$/;"	f
+setup_model	stable_baselines/a2c/a2c.py	/^    def setup_model(self):$/;"	m	class:A2C
+setup_model	stable_baselines/acer/acer_simple.py	/^    def setup_model(self):$/;"	m	class:ACER
+setup_model	stable_baselines/acktr/acktr.py	/^    def setup_model(self):$/;"	m	class:ACKTR
+setup_model	stable_baselines/common/base_class.py	/^    def setup_model(self):$/;"	m	class:ActorCriticRLModel
+setup_model	stable_baselines/common/base_class.py	/^    def setup_model(self):$/;"	m	class:BaseRLModel
+setup_model	stable_baselines/common/base_class.py	/^    def setup_model(self):$/;"	m	class:OffPolicyRLModel
+setup_model	stable_baselines/ddpg/ddpg.py	/^    def setup_model(self):$/;"	m	class:DDPG
+setup_model	stable_baselines/deepq/dqn.py	/^    def setup_model(self):$/;"	m	class:DQN
+setup_model	stable_baselines/her/her.py	/^    def setup_model(self):$/;"	m	class:HER
+setup_model	stable_baselines/ppo1/pposgd_simple.py	/^    def setup_model(self):$/;"	m	class:PPO1
+setup_model	stable_baselines/ppo2/ppo2.py	/^    def setup_model(self):$/;"	m	class:PPO2
+setup_model	stable_baselines/sac/sac.py	/^    def setup_model(self):$/;"	m	class:SAC
+setup_model	stable_baselines/td3/td3.py	/^    def setup_model(self):$/;"	m	class:TD3
+setup_model	stable_baselines/trpo_mpi/trpo_mpi.py	/^    def setup_model(self):$/;"	m	class:TRPO
+shape_el	stable_baselines/common/distributions.py	/^def shape_el(tensor, index):$/;"	f
+shuffle_dataset	stable_baselines/common/dataset.py	/^    def shuffle_dataset(self):$/;"	m	class:Dataset
+single_threaded_session	stable_baselines/common/tf_util.py	/^def single_threaded_session(make_default=False, graph=None):$/;"	f
+source_suffix	docs/conf.py	/^source_suffix = '.rst'$/;"	v
+start_process	stable_baselines/gail/dataset/dataset.py	/^    def start_process(self):$/;"	m	class:DataLoader
+start_video_recorder	stable_baselines/common/vec_env/vec_video_recorder.py	/^    def start_video_recorder(self):$/;"	m	class:VecVideoRecorder
+states_ph	stable_baselines/common/policies.py	/^    def states_ph(self):$/;"	m	class:RecurrentActorCriticPolicy
+step	stable_baselines/bench/monitor.py	/^    def step(self, action):$/;"	m	class:Monitor
+step	stable_baselines/common/atari_wrappers.py	/^    def step(self, action):$/;"	m	class:EpisodicLifeEnv
+step	stable_baselines/common/atari_wrappers.py	/^    def step(self, action):$/;"	m	class:FireResetEnv
+step	stable_baselines/common/atari_wrappers.py	/^    def step(self, action):$/;"	m	class:FrameStack
+step	stable_baselines/common/atari_wrappers.py	/^    def step(self, action):$/;"	m	class:MaxAndSkipEnv
+step	stable_baselines/common/atari_wrappers.py	/^    def step(self, action):$/;"	m	class:NoopResetEnv
+step	stable_baselines/common/bit_flipping_env.py	/^    def step(self, action):$/;"	m	class:BitFlippingEnv
+step	stable_baselines/common/identity_env.py	/^    def step(self, action):$/;"	m	class:IdentityEnv
+step	stable_baselines/common/identity_env.py	/^    def step(self, action):$/;"	m	class:IdentityEnvBox
+step	stable_baselines/common/policies.py	/^    def step(self, obs, state=None, mask=None):$/;"	m	class:BasePolicy
+step	stable_baselines/common/policies.py	/^    def step(self, obs, state=None, mask=None, deterministic=False):$/;"	m	class:ActorCriticPolicy
+step	stable_baselines/common/policies.py	/^    def step(self, obs, state=None, mask=None, deterministic=False):$/;"	m	class:FeedForwardPolicy
+step	stable_baselines/common/policies.py	/^    def step(self, obs, state=None, mask=None, deterministic=False):$/;"	m	class:LstmPolicy
+step	stable_baselines/common/vec_env/base_vec_env.py	/^    def step(self, actions):$/;"	m	class:VecEnv
+step	stable_baselines/ddpg/policies.py	/^    def step(self, obs, state=None, mask=None):$/;"	m	class:DDPGPolicy
+step	stable_baselines/ddpg/policies.py	/^    def step(self, obs, state=None, mask=None):$/;"	m	class:FeedForwardPolicy
+step	stable_baselines/deepq/policies.py	/^    def step(self, obs, state=None, mask=None, deterministic=True):$/;"	m	class:DQNPolicy
+step	stable_baselines/deepq/policies.py	/^    def step(self, obs, state=None, mask=None, deterministic=True):$/;"	m	class:FeedForwardPolicy
+step	stable_baselines/her/utils.py	/^    def step(self, action):$/;"	m	class:HERGoalEnvWrapper
+step	stable_baselines/sac/policies.py	/^    def step(self, obs, state=None, mask=None, deterministic=False):$/;"	m	class:FeedForwardPolicy
+step	stable_baselines/sac/policies.py	/^    def step(self, obs, state=None, mask=None, deterministic=False):$/;"	m	class:SACPolicy
+step	stable_baselines/td3/policies.py	/^    def step(self, obs, state=None, mask=None):$/;"	m	class:FeedForwardPolicy
+step	stable_baselines/td3/policies.py	/^    def step(self, obs, state=None, mask=None):$/;"	m	class:TD3Policy
+step	tests/test_lstm_policy.py	/^    def step(self, action):$/;"	m	class:CartPoleNoVelEnv
+step	tests/test_vec_check_nan.py	/^    def step(action):$/;"	m	class:NanAndInfEnv
+step	tests/test_vec_envs.py	/^    def step(self, action):$/;"	m	class:CustomGymEnv
+step	tests/test_vec_envs.py	/^    def step(self, action):$/;"	m	class:StepEnv
+step_async	stable_baselines/common/base_class.py	/^    def step_async(self, actions):$/;"	m	class:_UnvecWrapper
+step_async	stable_baselines/common/vec_env/base_vec_env.py	/^    def step_async(self, actions):$/;"	m	class:VecEnv
+step_async	stable_baselines/common/vec_env/base_vec_env.py	/^    def step_async(self, actions):$/;"	m	class:VecEnvWrapper
+step_async	stable_baselines/common/vec_env/dummy_vec_env.py	/^    def step_async(self, actions):$/;"	m	class:DummyVecEnv
+step_async	stable_baselines/common/vec_env/subproc_vec_env.py	/^    def step_async(self, actions):$/;"	m	class:SubprocVecEnv
+step_async	stable_baselines/common/vec_env/vec_check_nan.py	/^    def step_async(self, actions):$/;"	m	class:VecCheckNan
+step_wait	stable_baselines/common/base_class.py	/^    def step_wait(self):$/;"	m	class:_UnvecWrapper
+step_wait	stable_baselines/common/vec_env/base_vec_env.py	/^    def step_wait(self):$/;"	m	class:VecEnv
+step_wait	stable_baselines/common/vec_env/base_vec_env.py	/^    def step_wait(self):$/;"	m	class:VecEnvWrapper
+step_wait	stable_baselines/common/vec_env/dummy_vec_env.py	/^    def step_wait(self):$/;"	m	class:DummyVecEnv
+step_wait	stable_baselines/common/vec_env/subproc_vec_env.py	/^    def step_wait(self):$/;"	m	class:SubprocVecEnv
+step_wait	stable_baselines/common/vec_env/vec_check_nan.py	/^    def step_wait(self):$/;"	m	class:VecCheckNan
+step_wait	stable_baselines/common/vec_env/vec_frame_stack.py	/^    def step_wait(self):$/;"	m	class:VecFrameStack
+step_wait	stable_baselines/common/vec_env/vec_normalize.py	/^    def step_wait(self):$/;"	m	class:VecNormalize
+step_wait	stable_baselines/common/vec_env/vec_video_recorder.py	/^    def step_wait(self):$/;"	m	class:VecVideoRecorder
+storage	stable_baselines/deepq/replay_buffer.py	/^    def storage(self):$/;"	m	class:ReplayBuffer
+strip	stable_baselines/acer/acer_simple.py	/^def strip(var, n_envs, n_steps, flat=False):$/;"	f
+subset	stable_baselines/common/dataset.py	/^    def subset(self, num_elements, shuffle=True):$/;"	m	class:Dataset
+sum	stable_baselines/common/segment_tree.py	/^    def sum(self, start=0, end=None):$/;"	m	class:SumSegmentTree
+summary_val	stable_baselines/logger.py	/^def summary_val(key, value):$/;"	f
+swap_and_flatten	stable_baselines/ppo2/ppo2.py	/^def swap_and_flatten(arr):$/;"	f
+sync	stable_baselines/common/mpi_adam.py	/^    def sync(self):$/;"	m	class:MpiAdam
+take	stable_baselines/acer/buffer.py	/^    def take(self, arr, idx, envx):$/;"	m	class:Buffer
+templates_path	docs/conf.py	/^templates_path = ['_templates']$/;"	v
+test_a2c	tests/test_atari.py	/^def test_a2c(policy):$/;"	f
+test_acer	tests/test_atari.py	/^def test_acer(policy):$/;"	f
+test_acktr	tests/test_atari.py	/^def test_acktr():$/;"	f
+test_behavior_cloning_box	tests/test_gail.py	/^def test_behavior_cloning_box(model_class):$/;"	f
+test_behavior_cloning_discrete	tests/test_gail.py	/^def test_behavior_cloning_discrete(model_class):$/;"	f
+test_cartpole	tests/test_deepq.py	/^def test_cartpole():$/;"	f
+test_check_nan	tests/test_vec_check_nan.py	/^def test_check_nan():$/;"	f
+test_clipping	tests/test_ppo2.py	/^def test_clipping(cliprange, cliprange_vf):$/;"	f
+test_constant_schedule	tests/test_schedules.py	/^def test_constant_schedule():$/;"	f
+test_conv_kernel	tests/test_a2c_conv.py	/^def test_conv_kernel():$/;"	f
+test_custom_cartpole	tests/test_deepq.py	/^def test_custom_cartpole():$/;"	f
+test_custom_policy	tests/test_custom_policy.py	/^def test_custom_policy(request, model_name):$/;"	f
+test_custom_policy_kwargs	tests/test_custom_policy.py	/^def test_custom_policy_kwargs(request, model_name):$/;"	f
+test_dataset_param_validation	tests/test_gail.py	/^def test_dataset_param_validation():$/;"	f
+test_ddpg	tests/test_continuous.py	/^def test_ddpg():$/;"	f
+test_ddpg_eval_env	tests/test_continuous.py	/^def test_ddpg_eval_env():$/;"	f
+test_ddpg_normalization	tests/test_continuous.py	/^def test_ddpg_normalization():$/;"	f
+test_ddpg_popart	tests/test_continuous.py	/^def test_ddpg_popart():$/;"	f
+test_deepq	tests/test_atari.py	/^def test_deepq():$/;"	f
+test_deterministic_training_common	tests/test_0deterministic.py	/^def test_deterministic_training_common(algo):$/;"	f
+test_discount_with_boundaries	tests/test_math_util.py	/^def test_discount_with_boundaries():$/;"	f
+test_dist	stable_baselines/common/mpi_running_mean_std.py	/^def test_dist():$/;"	f
+test_function	tests/test_tf_util.py	/^def test_function():$/;"	f
+test_gail	tests/test_gail.py	/^def test_gail(expert_env):$/;"	f
+test_generate	tests/test_gail.py	/^def test_generate(generate_env):$/;"	f
+test_generate_callable	tests/test_gail.py	/^def test_generate_callable():$/;"	f
+test_her	tests/test_her.py	/^def test_her(model_class, goal_selection_strategy, discrete_obs_space):$/;"	f
+test_identity	tests/test_auto_vec_detection.py	/^def test_identity(model_class):$/;"	f
+test_identity	tests/test_identity.py	/^def test_identity(model_name):$/;"	f
+test_identity_box	tests/test_auto_vec_detection.py	/^def test_identity_box(model_class):$/;"	f
+test_identity_continuous	tests/test_identity.py	/^def test_identity_continuous(model_class):$/;"	f
+test_identity_multi_binary	tests/test_auto_vec_detection.py	/^def test_identity_multi_binary(model_class):$/;"	f
+test_identity_multi_discrete	tests/test_auto_vec_detection.py	/^def test_identity_multi_discrete(model_class):$/;"	f
+test_identity_multibinary	tests/test_action_space.py	/^def test_identity_multibinary(model_class):$/;"	f
+test_identity_multidiscrete	tests/test_action_space.py	/^def test_identity_multidiscrete(model_class):$/;"	f
+test_image_detection	tests/test_tf_util.py	/^def test_image_detection():$/;"	f
+test_linear_schedule	tests/test_schedules.py	/^def test_linear_schedule():$/;"	f
+test_load_parameters	tests/test_load_parameters.py	/^def test_load_parameters(request, model_class):$/;"	f
+test_long_episode	tests/test_her.py	/^def test_long_episode(model_class):$/;"	f
+test_lstm_policy	tests/test_lstm_policy.py	/^def test_lstm_policy(request, model_class, policy):$/;"	f
+test_lstm_train	tests/test_lstm_policy.py	/^def test_lstm_train():$/;"	f
+test_main	tests/test_logger.py	/^def test_main():$/;"	f
+test_make_output	tests/test_logger.py	/^def test_make_output(_format, mpi_disabled):$/;"	f
+test_make_output_fail	tests/test_logger.py	/^def test_make_output_fail():$/;"	f
+test_max_interval_tree	tests/test_segment_tree.py	/^def test_max_interval_tree():$/;"	f
+test_model_manipulation	tests/test_continuous.py	/^def test_model_manipulation(request, model_class):$/;"	f
+test_model_manipulation	tests/test_her.py	/^def test_model_manipulation(model_class, goal_selection_strategy):$/;"	f
+test_model_manipulation	tests/test_save.py	/^def test_model_manipulation(request, model_class, storage_method, store_format):$/;"	f
+test_monitor	tests/test_monitor.py	/^def test_monitor():$/;"	f
+test_mountaincar	tests/test_deepq.py	/^def test_mountaincar():$/;"	f
+test_mpi_adam	stable_baselines/common/mpi_adam.py	/^def test_mpi_adam():$/;"	f
+test_mpi_adam	tests/test_mpi_adam.py	/^def test_mpi_adam():$/;"	f
+test_mpi_adam_ppo1	tests/test_mpi_adam.py	/^def test_mpi_adam_ppo1():$/;"	f
+test_mpi_moments	tests/test_vec_normalize.py	/^def test_mpi_moments():$/;"	f
+test_mpi_runningmeanstd	tests/test_vec_normalize.py	/^def test_mpi_runningmeanstd():$/;"	f
+test_multikwargs	tests/test_tf_util.py	/^def test_multikwargs():$/;"	f
+test_multiple_runs	tests/test_tensorboard.py	/^def test_multiple_runs(model_name):$/;"	f
+test_no_mpi_no_crash	tests/test_no_mpi.py	/^def test_no_mpi_no_crash():$/;"	f
+test_piecewise_schedule	tests/test_schedules.py	/^def test_piecewise_schedule():$/;"	f
+test_ppo1	tests/test_atari.py	/^def test_ppo1():$/;"	f
+test_ppo2	tests/test_atari.py	/^def test_ppo2(policy):$/;"	f
+test_prefixsum_idx	tests/test_segment_tree.py	/^def test_prefixsum_idx():$/;"	f
+test_prefixsum_idx2	tests/test_segment_tree.py	/^def test_prefixsum_idx2():$/;"	f
+test_pretrain_images	tests/test_gail.py	/^def test_pretrain_images():$/;"	f
+test_probtypes	tests/test_distri.py	/^def test_probtypes():$/;"	f
+test_runningmeanstd	tests/test_vec_normalize.py	/^def test_runningmeanstd():$/;"	f
+test_save_custom_objects	tests/test_save.py	/^def test_save_custom_objects(request, model_class):$/;"	f
+test_subproc_start_method	tests/test_vec_envs.py	/^def test_subproc_start_method():$/;"	f
+test_tensorboard	tests/test_tensorboard.py	/^def test_tensorboard(model_name):$/;"	f
+test_tree_set	tests/test_segment_tree.py	/^def test_tree_set():$/;"	f
+test_tree_set_overlap	tests/test_segment_tree.py	/^def test_tree_set_overlap():$/;"	f
+test_trpo	tests/test_atari.py	/^def test_trpo():$/;"	f
+test_vec_env	tests/test_vec_normalize.py	/^def test_vec_env(tmpdir):$/;"	f
+test_vecenv_custom_calls	tests/test_vec_envs.py	/^def test_vecenv_custom_calls(vec_env_class, vec_env_wrapper):$/;"	f
+test_vecenv_dict_spaces	tests/test_vec_envs.py	/^def test_vecenv_dict_spaces(vec_env_class):$/;"	f
+test_vecenv_single_space	tests/test_vec_envs.py	/^def test_vecenv_single_space(vec_env_class, space):$/;"	f
+test_vecenv_terminal_obs	tests/test_vec_envs.py	/^def test_vecenv_terminal_obs(vec_env_class, vec_env_wrapper):$/;"	f
+test_vecenv_tuple_spaces	tests/test_vec_envs.py	/^def test_vecenv_tuple_spaces(vec_env_class):$/;"	f
+test_vecenv_wrapper_getattr	tests/test_vec_envs.py	/^def test_vecenv_wrapper_getattr():$/;"	f
+texinfo_documents	docs/conf.py	/^texinfo_documents = [$/;"	v
+tf_dependency	setup.py	/^tf_dependency = []$/;"	v
+tf_gpu	setup.py	/^                tf_gpu = True$/;"	v
+tf_gpu	setup.py	/^        tf_gpu = tf.test.is_gpu_available()$/;"	v
+tile_images	stable_baselines/common/tile_images.py	/^def tile_images(img_nhwc):$/;"	f
+timed	stable_baselines/trpo_mpi/trpo_mpi.py	/^                    def timed(msg):$/;"	f	function:TRPO.setup_model
+total_episode_reward_logger	stable_baselines/a2c/utils.py	/^def total_episode_reward_logger(rew_acc, rewards, masks, writer, steps):$/;"	f
+train	stable_baselines/a2c/run_atari.py	/^def train(env_id, num_timesteps, seed, policy, lr_schedule, num_env):$/;"	f
+train	stable_baselines/acer/run_atari.py	/^def train(env_id, num_timesteps, seed, policy, lr_schedule, num_cpu):$/;"	f
+train	stable_baselines/acktr/run_atari.py	/^def train(env_id, num_timesteps, seed, num_cpu):$/;"	f
+train	stable_baselines/ppo1/run_atari.py	/^def train(env_id, num_timesteps, seed):$/;"	f
+train	stable_baselines/ppo1/run_mujoco.py	/^def train(env_id, num_timesteps, seed):$/;"	f
+train	stable_baselines/ppo1/run_robotics.py	/^def train(env_id, num_timesteps, seed):$/;"	f
+train	stable_baselines/ppo2/run_atari.py	/^def train(env_id, num_timesteps, seed, policy,$/;"	f
+train	stable_baselines/ppo2/run_mujoco.py	/^def train(env_id, num_timesteps, seed):$/;"	f
+train	stable_baselines/trpo_mpi/run_atari.py	/^def train(env_id, num_timesteps, seed):$/;"	f
+train	stable_baselines/trpo_mpi/run_mujoco.py	/^def train(env_id, num_timesteps, seed):$/;"	f
+traj_segment_generator	stable_baselines/trpo_mpi/utils.py	/^def traj_segment_generator(policy, env, horizon, reward_giver=None, gail=False):$/;"	f
+ts2xy	stable_baselines/results_plotter.py	/^def ts2xy(timesteps, xaxis):$/;"	f
+unflatten_vector	stable_baselines/common/math_util.py	/^def unflatten_vector(vec, shapes):$/;"	f
+unvec_obs	stable_baselines/common/base_class.py	/^    def unvec_obs(obs):$/;"	m	class:_UnvecWrapper
+unwrapped	stable_baselines/common/vec_env/base_vec_env.py	/^    def unwrapped(self):$/;"	m	class:VecEnv
+update	stable_baselines/common/mpi_adam.py	/^    def update(self, local_grad, learning_rate):$/;"	m	class:MpiAdam
+update	stable_baselines/common/mpi_running_mean_std.py	/^    def update(self, data):$/;"	m	class:RunningMeanStd
+update	stable_baselines/common/running_mean_std.py	/^    def update(self, arr):$/;"	m	class:RunningMeanStd
+update_from_moments	stable_baselines/common/running_mean_std.py	/^    def update_from_moments(self, batch_mean, batch_var, batch_count):$/;"	m	class:RunningMeanStd
+update_optim_op	stable_baselines/acktr/kfac.py	/^                        def update_optim_op():$/;"	f	function:KfacOptimizer.apply_gradients_kfac.dequeue_op.no_op_wrapper.optim_op
+update_priorities	stable_baselines/deepq/replay_buffer.py	/^    def update_priorities(self, idxes, priorities):$/;"	m	class:PrioritizedReplayBuffer
+update_scale	stable_baselines/deepq/build_graph.py	/^    def update_scale():$/;"	f	function:build_act_with_param_noise
+url	setup.py	/^      url='https:\/\/github.com\/hill-a\/stable-baselines',$/;"	v
+valid_float_value	stable_baselines/logger.py	/^def valid_float_value(value):$/;"	f
+validate_probtype	tests/test_distri.py	/^def validate_probtype(probtype, pdparam):$/;"	f
+value	stable_baselines/a2c/utils.py	/^    def value(self):$/;"	m	class:Scheduler
+value	stable_baselines/common/policies.py	/^    def value(self, obs, state=None, mask=None):$/;"	m	class:ActorCriticPolicy
+value	stable_baselines/common/policies.py	/^    def value(self, obs, state=None, mask=None):$/;"	m	class:FeedForwardPolicy
+value	stable_baselines/common/policies.py	/^    def value(self, obs, state=None, mask=None):$/;"	m	class:LstmPolicy
+value	stable_baselines/common/policies.py	/^    def value(self, obs, state=None, mask=None):$/;"	m	class:RecurrentActorCriticPolicy
+value	stable_baselines/common/schedules.py	/^    def value(self, step):$/;"	m	class:ConstantSchedule
+value	stable_baselines/common/schedules.py	/^    def value(self, step):$/;"	m	class:LinearSchedule
+value	stable_baselines/common/schedules.py	/^    def value(self, step):$/;"	m	class:PiecewiseSchedule
+value	stable_baselines/common/schedules.py	/^    def value(self, step):$/;"	m	class:Schedule
+value	stable_baselines/ddpg/policies.py	/^    def value(self, obs, action, state=None, mask=None):$/;"	m	class:DDPGPolicy
+value	stable_baselines/ddpg/policies.py	/^    def value(self, obs, action, state=None, mask=None):$/;"	m	class:FeedForwardPolicy
+value_flat	stable_baselines/common/policies.py	/^    def value_flat(self):$/;"	m	class:ActorCriticPolicy
+value_fn	stable_baselines/common/policies.py	/^    def value_fn(self):$/;"	m	class:ActorCriticPolicy
+value_steps	stable_baselines/a2c/utils.py	/^    def value_steps(self, steps):$/;"	m	class:Scheduler
+var_shape	stable_baselines/common/tf_util.py	/^def var_shape(tensor):$/;"	f
+version	docs/conf.py	/^version = 'master (' + stable_baselines.__version__ + ' )'$/;"	v
+version	setup.py	/^      version="2.9.0a0",$/;"	v
+warn	stable_baselines/logger.py	/^def warn(*args):$/;"	f
+white	stable_baselines/common/console_util.py	/^    white=37,$/;"	v
+window_func	stable_baselines/results_plotter.py	/^def window_func(var_1, var_2, window, func):$/;"	f
+wrap_atari_dqn	stable_baselines/deepq/__init__.py	/^def wrap_atari_dqn(env):$/;"	f
+wrap_deepmind	stable_baselines/common/atari_wrappers.py	/^def wrap_deepmind(env, episode_life=True, clip_rewards=True, frame_stack=False, scale=False):$/;"	f
+writekvs	stable_baselines/logger.py	/^    def writekvs(self, kvs):$/;"	m	class:CSVOutputFormat
+writekvs	stable_baselines/logger.py	/^    def writekvs(self, kvs):$/;"	m	class:HumanOutputFormat
+writekvs	stable_baselines/logger.py	/^    def writekvs(self, kvs):$/;"	m	class:JSONOutputFormat
+writekvs	stable_baselines/logger.py	/^    def writekvs(self, kvs):$/;"	m	class:KVWriter
+writekvs	stable_baselines/logger.py	/^    def writekvs(self, kvs):$/;"	m	class:TensorBoardOutputFormat
+writeseq	stable_baselines/logger.py	/^    def writeseq(self, seq):$/;"	m	class:HumanOutputFormat
+writeseq	stable_baselines/logger.py	/^    def writeseq(self, seq):$/;"	m	class:SeqWriter
+yellow	stable_baselines/common/console_util.py	/^    yellow=33,$/;"	v
+zipsame	stable_baselines/common/misc_util.py	/^def zipsame(*seqs):$/;"	f
