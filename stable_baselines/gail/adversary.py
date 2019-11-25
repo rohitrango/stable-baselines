@@ -65,11 +65,11 @@ class TransitionClassifier(object):
         self.obs_rms = None
 
         # Placeholders
-        self.generator_obs_ph = tf.placeholder(observation_space.dtype, (None,) + self.observation_shape,
+        self.generator_obs_ph = tf.placeholder(np.float32, (None,) + self.observation_shape,
                                                name="observations_ph")
         self.generator_acs_ph = tf.placeholder(action_space.dtype, (None,) + self.actions_shape,
                                                name="actions_ph")
-        self.expert_obs_ph = tf.placeholder(observation_space.dtype, (None,) + self.observation_shape,
+        self.expert_obs_ph = tf.placeholder(np.float32, (None,) + self.observation_shape,
                                             name="expert_observations_ph")
         self.expert_acs_ph = tf.placeholder(action_space.dtype, (None,) + self.actions_shape,
                                             name="expert_actions_ph")

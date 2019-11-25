@@ -130,6 +130,7 @@ class TRPO(ActorCriticRLModel):
                 if self.using_gail:
                     self.reward_giver = TransitionClassifier(self.observation_space, self.action_space,
                                                              self.hidden_size_adversary,
+                                                             normalize=False,
                                                              entcoeff=self.adversary_entcoeff)
 
                 # Construct network for new policy
@@ -412,7 +413,7 @@ class TRPO(ActorCriticRLModel):
                                 # list of tuples
                                 paramsums = MPI.COMM_WORLD.allgather((thnew.sum(), self.vfadam.getflat().sum()))
                                 assert all(np.allclose(ps, paramsums[0]) for ps in paramsums[1:])
-                            
+
                             for (loss_name, loss_val) in zip(self.loss_names, mean_losses):
                                 logger.record_tabular(loss_name, loss_val)
 
