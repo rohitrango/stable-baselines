@@ -433,6 +433,7 @@ class LstmPolicy(RecurrentActorCriticPolicy):
                                          scale=(feature_extraction == "cnn"))
 
         self._kwargs_check(feature_extraction, kwargs)
+        self.feature_extraction = feature_extraction
 
         if net_arch is None:  # Legacy mode
             if layers is None:

@@ -128,10 +128,13 @@ class TRPO(ActorCriticRLModel):
                 self.sess = tf_util.make_session(num_cpu=self.n_cpu_tf_sess, graph=self.graph)
 
                 if self.using_gail:
+                    cnn_extractor = self.policy_kwargs.get('cnn_extractor', None)
                     self.reward_giver = TransitionClassifier(self.observation_space, self.action_space,
                                                              self.hidden_size_adversary,
                                                              normalize=False,
-                                                             entcoeff=self.adversary_entcoeff)
+                                                             entcoeff=self.adversary_entcoeff,
+                                                             cnn_extractor=cnn_extractor
+                                                             )
 
                 # Construct network for new policy
                 self.policy_pi = self.policy(self.sess, self.observation_space, self.action_space, self.n_envs, 1,

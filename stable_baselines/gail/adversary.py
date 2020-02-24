@@ -34,7 +34,9 @@ def logit_bernoulli_entropy(logits):
 
 class TransitionClassifier(object):
     def __init__(self, observation_space, action_space, hidden_size,
-                 entcoeff=0.001, scope="adversary", normalize=True):
+                 entcoeff=0.001, scope="adversary", normalize=True,
+                 cnn_extractor=None,
+                 ):
         """
         Reward regression from observations and transitions
 
@@ -49,6 +51,7 @@ class TransitionClassifier(object):
         self.scope = scope
         self.observation_shape = observation_space.shape
         self.actions_shape = action_space.shape
+        self.cnn_extractor = cnn_extractor
 
         if isinstance(action_space, gym.spaces.Box):
             # Continuous action space
@@ -128,6 +131,10 @@ class TransitionClassifier(object):
             else:
                 actions_ph = acs_ph
 
+            # Handle images if given
+            if self.cnn_extractor is not None:
+                obs = self.cnn_extractor(obs)
+
             _input = tf.concat([obs, actions_ph], axis=1)  # concatenate the two input -> form a transition
             p_h1 = tf.contrib.layers.fully_connected(_input, self.hidden_size, activation_fn=tf.nn.tanh)
             p_h2 = tf.contrib.layers.fully_connected(p_h1, self.hidden_size, activation_fn=tf.nn.tanh)
@@ -151,7 +158,7 @@ class TransitionClassifier(object):
         :return: (np.ndarray) the reward
         """
         sess = tf.get_default_session()
-        if len(obs.shape) == 1:
+        if len(obs.shape) == 1 or len(obs.shape) == 3:
             obs = np.expand_dims(obs, 0)
         if len(actions.shape) == 1:
             actions = np.expand_dims(actions, 0)
