@@ -28,6 +28,34 @@ def nature_cnn(scaled_images, **kwargs):
     return activ(linear(layer_3, 'fc1', n_hidden=512, init_scale=np.sqrt(2)))
 
 
+def minigrid_extractor(scaled_images, **kwargs):
+    """
+    CNN for MiniGrid environments with variable grid sizes
+    """
+    activ = tf.nn.relu
+    # first layer is just an embedding finder
+    layer_1 = conv(scaled_images, 'c1', n_filters=32, filter_size=1, stride=1, init_scale=np.sqrt(2), **kwargs)
+    layer_2 = activ(conv(layer_1, 'c2', n_filters=64, filter_size=3, stride=1, init_scale=np.sqrt(2), **kwargs))
+    layer_3 = activ(conv(layer_2, 'c3', n_filters=64, filter_size=3, stride=2, init_scale=np.sqrt(2), **kwargs))
+    layer_4 = activ(conv(layer_3, 'c4', n_filters=64, filter_size=3, stride=2, init_scale=np.sqrt(2), **kwargs))
+    layer_5 = conv_to_fc(layer_4)
+    print(layer_4, layer_5)
+    return activ(linear(layer_5, 'fc1', n_hidden=256, init_scale=np.sqrt(2)))
+
+
+def minigrid_extractor_small(scaled_images, **kwargs):
+    """
+    CNN for MiniGrid environments with variable grid sizes
+    """
+    activ = tf.nn.relu
+    # first layer is just an embedding finder
+    layer_1 = conv(scaled_images, 'c1', n_filters=32, filter_size=1, stride=1, init_scale=np.sqrt(2), **kwargs)
+    layer_2 = activ(conv(layer_1, 'c2', n_filters=64, filter_size=3, stride=1, init_scale=np.sqrt(2), **kwargs))
+    layer_3 = activ(conv(layer_2, 'c3', n_filters=64, filter_size=3, stride=1, init_scale=np.sqrt(2), **kwargs))
+    layer_4 = conv_to_fc(layer_3)
+    print(layer_3)
+    return activ(linear(layer_4, 'fc1', n_hidden=128, init_scale=np.sqrt(2)))
+
 def mlp_extractor(flat_observations, net_arch, act_fun):
     """
     Constructs an MLP that receives observations as an input and outputs a latent representation for the policy and

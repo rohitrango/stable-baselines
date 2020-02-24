@@ -971,7 +971,6 @@ class _UnvecWrapper(VecEnvWrapper):
     def __init__(self, venv):
         """
         Unvectorize a vectorized environment, for vectorized environment that only have one environment
-
         :param venv: (VecEnv) the vectorized environment to wrap
         """
         super().__init__(venv)

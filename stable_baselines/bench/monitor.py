@@ -14,7 +14,7 @@ class Monitor(Wrapper):
     EXT = "monitor.csv"
     file_handler = None
 
-    def __init__(self, env, filename, allow_early_resets=False, reset_keywords=(), info_keywords=()):
+    def __init__(self, env, filename, allow_early_resets=False, reset_keywords=(), info_keywords=(), append=False):
         """
         A monitor wrapper for Gym environments, it is used to know the episode reward, length, time and other data.
 
@@ -25,6 +25,7 @@ class Monitor(Wrapper):
         :param info_keywords: (tuple) extra information to log, from the information return of environment.step
         """
         Wrapper.__init__(self, env=env)
+        mode = 'at' if append else 'wt'
         self.t_start = time.time()
         if filename is None:
             self.file_handler = None
@@ -35,11 +36,14 @@ class Monitor(Wrapper):
                     filename = os.path.join(filename, Monitor.EXT)
                 else:
                     filename = filename + "." + Monitor.EXT
-            self.file_handler = open(filename, "wt")
-            self.file_handler.write('#%s\n' % json.dumps({"t_start": self.t_start, 'env_id': env.spec and env.spec.id}))
+            self.file_handler = open(filename, mode)
+            # Write only if permitted
+            if mode == 'wt':
+                self.file_handler.write('#%s\n' % json.dumps({"t_start": self.t_start, 'env_id': env.spec and env.spec.id}))
             self.logger = csv.DictWriter(self.file_handler,
                                          fieldnames=('r', 'l', 't') + reset_keywords + info_keywords)
-            self.logger.writeheader()
+            if mode == 'wt':
+                self.logger.writeheader()
             self.file_handler.flush()
 
         self.reset_keywords = reset_keywords

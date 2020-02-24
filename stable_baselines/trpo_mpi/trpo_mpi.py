@@ -114,7 +114,7 @@ class TRPO(ActorCriticRLModel):
         from stable_baselines.gail.adversary import TransitionClassifier
 
         with SetVerbosity(self.verbose):
-
+            # Should be an Actor Critic policy
             assert issubclass(self.policy, ActorCriticPolicy), "Error: the input policy for the TRPO model must be " \
                                                                "an instance of common.policies.ActorCriticPolicy."
 

@@ -73,6 +73,14 @@ class PPO2(ActorCriticRLModel):
         self.tensorboard_log = tensorboard_log
         self.full_tensorboard_log = full_tensorboard_log
 
+        # GAIL Params
+        self.hidden_size_adversary = 100
+        self.adversary_entcoeff = 1e-3
+        self.expert_dataset = None
+        self.g_step = 1
+        self.d_step = 1
+        self.d_stepsize = 3e-4
+
         self.graph = None
         self.sess = None
         self.action_ph = None
@@ -100,6 +108,9 @@ class PPO2(ActorCriticRLModel):
         self.summary = None
         self.episode_reward = None
 
+        self.reward_giver = None
+        self.using_gail = False
+
         if _init_setup_model:
             self.setup_model()
 
@@ -110,17 +121,25 @@ class PPO2(ActorCriticRLModel):
         return policy.obs_ph, self.action_ph, policy.deterministic_action
 
     def setup_model(self):
+        from stable_baselines.gail.adversary import TransitionClassifier
+
         with SetVerbosity(self.verbose):
 
             assert issubclass(self.policy, ActorCriticPolicy), "Error: the input policy for the PPO2 model must be " \
                                                                "an instance of common.policies.ActorCriticPolicy."
 
             self.n_batch = self.n_envs * self.n_steps
-
             self.graph = tf.Graph()
+
             with self.graph.as_default():
                 self.set_random_seed(self.seed)
                 self.sess = tf_util.make_session(num_cpu=self.n_cpu_tf_sess, graph=self.graph)
+
+                if self.using_gail:
+                    self.reward_giver = TransitionClassifier(self.observation_space, self.action_space,
+                                                             self.hidden_size_adversary,
+                                                             normalize=False,
+                                                             entcoeff=self.adversary_entcoeff)
 
                 n_batch_step = None
                 n_batch_train = None
@@ -132,6 +151,7 @@ class PPO2(ActorCriticRLModel):
 
                 act_model = self.policy(self.sess, self.observation_space, self.action_space, self.n_envs, 1,
                                         n_batch_step, reuse=False, **self.policy_kwargs)
+
                 with tf.variable_scope("train_model", reuse=True,
                                        custom_getter=tf_util.outer_scope_getter("train_model")):
                     train_model = self.policy(self.sess, self.observation_space, self.action_space,
@@ -200,6 +220,10 @@ class PPO2(ActorCriticRLModel):
 
                     with tf.variable_scope('model'):
                         self.params = tf.trainable_variables()
+                        # Update params with GAIL params too
+                        if self.using_gail:
+                            self.params.extend(self.reward_giver.get_trainable_variables())
+
                         if self.full_tensorboard_log:
                             for var in self.params:
                                 tf.summary.histogram(var.name, var)

@@ -7,3 +7,4 @@ from stable_baselines.common.vec_env.vec_frame_stack import VecFrameStack
 from stable_baselines.common.vec_env.vec_normalize import VecNormalize
 from stable_baselines.common.vec_env.vec_video_recorder import VecVideoRecorder
 from stable_baselines.common.vec_env.vec_check_nan import VecCheckNan
+from stable_baselines.common.vec_env.vec_atari import VecAtari

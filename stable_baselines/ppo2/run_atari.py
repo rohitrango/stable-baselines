@@ -2,6 +2,7 @@ from stable_baselines import PPO2, logger
 from stable_baselines.common.cmd_util import make_atari_env, atari_arg_parser
 from stable_baselines.common.vec_env import VecFrameStack
 from stable_baselines.common.policies import CnnPolicy, CnnLstmPolicy, CnnLnLstmPolicy, MlpPolicy
+from stable_baselines.bench import Monitor
 
 
 def train(env_id, num_timesteps, seed, policy,
@@ -19,13 +20,14 @@ def train(env_id, num_timesteps, seed, policy,
     :param n_steps: (int) The number of steps to run for each environment per update
         (i.e. batch size is n_steps * n_env where n_env is number of environment copies running in parallel)
     """
-
-    env = VecFrameStack(make_atari_env(env_id, n_envs, seed), 4)
+    env = make_atari_env(env_id, n_envs, seed)
+    env = VecFrameStack(env, 4)
     policy = {'cnn': CnnPolicy, 'lstm': CnnLstmPolicy, 'lnlstm': CnnLnLstmPolicy, 'mlp': MlpPolicy}[policy]
     model = PPO2(policy=policy, env=env, n_steps=n_steps, nminibatches=nminibatches,
                  lam=0.95, gamma=0.99, noptepochs=4, ent_coef=.01,
                  learning_rate=lambda f: f * 2.5e-4, cliprange=lambda f: f * 0.1, verbose=1)
     model.learn(total_timesteps=num_timesteps)
+    model.save('/serverdata/rohit/stablebaselines/atari/ppo/{}'.format(env_id), 'csv')
 
     env.close()
     # Free memory
@@ -37,9 +39,10 @@ def main():
     """
     parser = atari_arg_parser()
     parser.add_argument('--policy', help='Policy architecture', choices=['cnn', 'lstm', 'lnlstm', 'mlp'], default='cnn')
+    parser.add_argument('--n_envs', default=8, type=int)
     args = parser.parse_args()
-    logger.configure()
-    train(args.env, num_timesteps=args.num_timesteps, seed=args.seed,
+    logger.configure(folder='/serverdata/rohit/stablebaselines/{}/ppo'.format(args.env))
+    train(args.env, num_timesteps=args.num_timesteps, seed=args.seed, n_envs=args.n_envs,
           policy=args.policy)
 
 

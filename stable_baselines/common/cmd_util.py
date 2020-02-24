@@ -14,7 +14,7 @@ from stable_baselines.common.misc_util import mpi_rank_or_zero
 from stable_baselines.common.vec_env import DummyVecEnv, SubprocVecEnv
 
 
-def make_atari_env(env_id, num_env, seed, wrapper_kwargs=None,
+def make_atari_env(env_id, num_env, seed, wrapper_kwargs=None, logdir=None,
                    start_index=0, allow_early_resets=True, start_method=None):
     """
     Create a wrapped, monitored SubprocVecEnv for Atari.
@@ -32,11 +32,14 @@ def make_atari_env(env_id, num_env, seed, wrapper_kwargs=None,
     if wrapper_kwargs is None:
         wrapper_kwargs = {}
 
-    def make_env(rank):
+    if logdir is None:
+        logdir = logger.get_dir()
+
+    def make_env(rank, logdir):
         def _thunk():
             env = make_atari(env_id)
             env.seed(seed + rank)
-            env = Monitor(env, logger.get_dir() and os.path.join(logger.get_dir(), str(rank)),
+            env = Monitor(env, os.path.join(logdir, '{:03d}.monitor.csv'.format(rank)),
                           allow_early_resets=allow_early_resets)
             return wrap_deepmind(env, **wrapper_kwargs)
         return _thunk
@@ -44,9 +47,9 @@ def make_atari_env(env_id, num_env, seed, wrapper_kwargs=None,
 
     # When using one environment, no need to start subprocesses
     if num_env == 1:
-        return DummyVecEnv([make_env(0)])
+        return DummyVecEnv([make_env(0, logdir)])
 
-    return SubprocVecEnv([make_env(i + start_index) for i in range(num_env)],
+    return SubprocVecEnv([make_env(i + start_index, logdir) for i in range(num_env)],
                          start_method=start_method)
 
 
